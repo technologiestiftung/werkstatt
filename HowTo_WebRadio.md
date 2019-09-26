@@ -1,7 +1,10 @@
-<img align="right" width="260" src="images/citylab-logo-2160x550.jpg">
+<img align="right" width="180" src="images/citylab-logo-2160x550.jpg">
+<img align="right" width="180" src="images/logo-technologiestiftung.jpg">
+
 
 &nbsp;
 # Bauanleitung Web Radio
+## Remote Workshop zum zu Hause basteln
 
 <img align="top" width="100%" src="images/WebRadio/Header_WebRadio.jpg">
 

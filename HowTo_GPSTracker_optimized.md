@@ -1,4 +1,5 @@
-<!-- <img align="right" width="260px" src="images/citylab-logo-2160x550.jpg"> -->
+<img align="right" width="180" src="images/citylab-logo-2160x550.jpg">
+<img align="right" width="180" src="images/logo-technologiestiftung.jpg">
 
 # Bauanleitung GPS-Tracker (optimized)
 ## Workshop vom 18. September 2019
