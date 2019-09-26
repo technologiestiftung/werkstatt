@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <img align="right" width="160" src="images/logo-technologiestiftung.jpg">
 <img align="right" width="160" src="images/citylab-logo-2160x550.jpg">
 =======
