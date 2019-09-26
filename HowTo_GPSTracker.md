@@ -44,7 +44,7 @@ Jedes einzelne Modul bzw. jede einzelne Hardware-Komponente, wie bspw. Display, 
 #### Code aka. Sketch
 Nach dem Setup der Hardware, muss nun mit Hilfe der Arduino-IDE ein Sketch (Sketch == Code == Programm) auf das Arduino-Board geladen werden. Dazu schließt man den Arduino vie Mini-USB an seinen Client (Client == Rechner == Laptop) an und öffnet die Arduino IDE (Download der Arduino-IDE [auf der offiziellen Website](https://www.arduino.cc/en/main/software)). In der IDE (Integrated Development Environment aka. Integrierte Entwicklungsumgebung) schreibt man das Sketch für den Mikrocontroller und lädt es schließlich auf das Board.
 
-**Wichtig**: damit das Sketch auf das Board geladen werden kann, muss zunächst das richtige Board (Arduino Nano) und der richtige Port (incoming USB-POrt) ausgewählt werden. Ihr könnt beide Einstellungem im Menüband unter "Tools" überprüfen und anpassen.
+**Wichtig**: damit das Sketch auf das Board geladen werden kann, muss zunächst das richtige Board (Arduino Nano) und der richtige Port (incoming USB-Port) ausgewählt werden. Ihr könnt beide Einstellungem im Menüband unter "Tools" überprüfen und anpassen.
 
 **[Hier geht's zum Code](https://github.com/technologiestiftung/workshops/blob/master/codes_sketches/GPSTracker_LoRa_Nano_V1.ino)**
 
@@ -96,6 +96,7 @@ Zur Verkabelung mit dem Arduino Uno benötigen wir lediglich zwei Kabel.
     * Tipps hier: https://www.thethingsnetwork.org/forum/c/nodes/lmic
 
 #### Code
+Der initiale Code wurde im Zuge des Aufbau's der LoRaWan-Community durch die Technologiestiftung, respektive Christian Hammel, erstellt.
 **[Hier geht's zum Code](https://github.com/technologiestiftung/workshops/blob/master/codes_sketches/GPSTracker_LoRa_Uno_V2.ino)**
 
 Wir haben eine ausführliche Präsentation zum Aufbau dieses GPS-Trackers erstellt. Darin werden u.a. auch noch einmal die Grundlage zum TTN (The Thing Network) und der Verbindung mit dem LoRaWan erklärt.  
