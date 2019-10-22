@@ -34,8 +34,7 @@ Headless (für Mac) sieht der Ablauf der Installation wie folgt aus:
 * die SD-Karte "flashen" (also in unserem Falle die Raspbian-Software in den ROM-Speicherbereich der SD-Karte schreiben)
   * folgender Kommand wird dazu benötigt, wobei die beiden Pfade individuell angepasst werden müssen
   ```
-  sudo dd bs=1m if=/dein/pfad/zur/Installationsdatei.img of=/deine/disk123
- 
+  sudo dd bs=1m if=/dein/pfad/zur/Installationsdatei.img of=/dev/deineDisk123
   ```
   * Kommand um die Bezeichnung der aktiven disks herauszufinden
   ```
@@ -43,11 +42,12 @@ Headless (für Mac) sieht der Ablauf der Installation wie folgt aus:
   ```
   * vor dem flashen der SD-Karte, muss man die entsprechende disk (respektive die SD-Karte) unmounten
   ```
-  dd: /dev/disk5: Resource busy
+  // Wenn "/dev/disk5: Resource busy", dann SDk-Karte unmounte
+  sudo diskutil unmountDisk /dev/deineDisk123
   ```
   * Achtung: nach ausführen des Kommands wird die Disk geflasht -> es erscheint vorerst keine Ausgabe auf der Konsole, da dieser Vorgang    etwas Zeit in Anspruch nimmt. Mit der Tastenkombination Ctrl+T kann jedoch der Fortschritt abgefragt werden
 
-* Micro-SD-Karte
+* Micro-SD-Karte in den Raspberry Pi stecken & danach den Raspberry mit Strom versorgen
 
 
 ## Step 2 - Raspberry Pi 3 via SSH mit dem Laptop verbinden
