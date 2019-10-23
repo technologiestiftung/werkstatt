@@ -103,11 +103,53 @@ In unserem Falle ist das "genau richtig", denn es bestätigt, dass das kryptogra
 ssh pi@raspberrypi
 ```
 Bevor es mit Step 5 weitergeht muss eine gültige SSH-erbingung zwischen Mac (Laptop) und RasPi  bestehen.
-<img align="right" width="80%" src="images/WebRadio/SSH_success.png">
+<img align="left" width="100%" src="images/WebRadio/SSH_success.png">
 
 
 ## Step 5 - Finally: mit dem Radio verbinden
 Um sich mit dem Radio zu verbinden benötigt man zunächst die MAC-Adresse des Radios. Der Einfacheit halber kann man diese direkt über die Systemeinstellungen des MAC (Laptop) auslesen: Systemeinstellungen --> Bluetooth --> Geräte scannen --> Rechtsklick auf das Radio --> Adresse notieren. Die MAC-Adresse wir immer im *kanonischen Format* angegeben: 12-34-56-78-9A-BC
+
+Für die erfolgreiche Verbdindung zum Radio sind mehrere Commands nötig. Wer einen "autonomen" Raspberry konfigurieren möchte, der sollte die nachfolgenden Befehle direkt in ein Skript-File .sh schreiben. Die Skript-Datei wird dann später im Autostart aufgerufen.
+
+Zum Verbinden mit dem Radio sind folgenden Befehle notwendig:
+```
+$ bluetoothctl
+Agent registered
+
+$ [bluetooth]# agent on
+changing power on succeeded
+
+$ [bluetooth]# pairable on
+changing pairable on succeeded
+
+$ [bluetooth]# scan on
+Discovery started
+// beim Scan sollte die MAC-Adresse des Radios erscheinen
+[CHG] Device 12:34:56:78:9A:BC 12-34-56-78-9A-BC
+
+//damit man nicht unnötig weiterscannt
+$ [bluetooth]# scan off
+Discovery stopped
+
+//jetzt wollen wir uns mit dem WebRadio pairen (noch nicht verbinden!)
+$ [bluetooth]# pair 12:34:56:78:9A:BC
+Attempting to pair with 12:34:56:78:9A:BC
+[CHG] Device 12:34:56:78:9A:BC Connected: yes
+[CHG] Device 12:34:56:78:9A:BC ServicesResolved: yes
+[CHG] Device 12:34:56:78:9A:BC Paired: yes
+Pairing successful
+
+//überprüfen ob das Pairing wirklich geklappt hat
+$ [bluetooth]# devices
+Device 12:34:56:78:9A:BC MeinRadioName
+
+//automatisch mit dem Gerät (Radio) verbinden, wenn es eingeschaltet wird
+$ [bluetooth]# trust 12:34:56:78:9A:BC
+[CHG] Device 12:34:56:78:9A:BC Trusted: yes
+Changing 12:34:56:78:9A:BC trust succeeded
+
+//Finally: mit dem Radio verbinden
+$ [bluetooth]# connect 12:34:56:78:9A:BC
 
 
 
