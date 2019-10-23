@@ -200,6 +200,48 @@ $ systemctl status bluetooth
 <img align="left" width="100%" src="images/WebRadio/SH_Skript.png">
 
 
-### Skript erstellen
 
+### Skript erstellen
+Navigiert zum gewünschten Ort im Filesystem und erstellt und editiert ein neues File "meinFile.sh". Wichtig ist die Endung .sh, denn somit wir der Code als Shell Script interpretiert. Im Skript stehen schließlich folgenden Anweisungen:
+```
+# !/bin/sh
+
+# gibt "Hallo Welt!" auf die Konsole aus
+echo Hallo Welt!
+# gibt das aktuelle Datum + Uhrzeit auf die Konsole aus
+date
+#gibt das das aktuelle Arbeitsverzeichnis (working directoy) aus
+pwd
+
+#ab hier folgen die Befehle für Bluetooth-Systemsteuerung
+bluetoothctl agent on
+bluetoothctl power on
+bluetoothctl pairable on
+
+bluetoothctl scan on
+#warten 
+sleep 8s
+bluetoothctl scan off
+
+bluetoothctl pair 12:34:56:78:9A:BC
+sleep 1s
+bluetoothctl trust 12:34:56:78:9A:BC
+sleep 1s
+bluetoothctl connect 12:34:56:78:9A:BC
+
+#5 Sekunden warten bis mit bluetooth Device connected
+sleep 5s
+
+# wahlweise ein Speaker Test bevor die Playlist ausgegeben wird
+# initialize a speaker test with 2 channels for 4 periods
+# speaker-test -c2 -l4 -twav
+
+
+vlc ~/Documents/meinePlaylist.m3u
+
+exit 0
+```
+Speichern und fertig.
+
+### Skript in den Autostart einbinden
 
