@@ -197,4 +197,9 @@ $ systemctl status bluetooth
 ## Der "autonome" Raspberry
 ### Ab hier geht's um die Autostart-Konfiguration
 
+<img align="left" width="100%" src="images/WebRadio/SH_Skript.png">
+
+
+### Skript erstellen
+
 
