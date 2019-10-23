@@ -71,9 +71,23 @@ Den RasPi kann man auf zwei Wege mit dem Client verbinden: per **IP-Adresse** de
 **Default-Host: raspberrybi
 **Default-Passwort: raspberry**
 
-**Via IP-Adresse:** Die Netzwerkadresse kann schnell und einfach über das Webinterface eures Routers ausgelesen werden. Der Username ist nach der ersten Inbetriebnahme standardmäßig gesetzt, sodass sich folgender Befehl ergibt: ssh *[username]*@*[IP-Adresse]*
+**Via IP-Adresse:** Die Netzwerkadresse kann schnell und einfach über das Webinterface eures Routers ausgelesen werden. Wahlweise gibt es unzählige MAC-CLI-Befehle, unter anderem:
+
 ```
-ssh pi@192.168.x.xxx
+$ arp -a | grep raspberry
+$ arp -a | grep raspi
+```
+
+Die einfachste **Variante (MIT Head)** ist es die IP-Adresse direkt in der Konsole des Raspberry's auszulesen
+```
+$ hostname -I
+// wahlweise kann man auch nach der inet Adresse suchen
+$ ifconfig
+```
+
+Der Username ist nach der ersten Inbetriebnahme standardmäßig gesetzt, sodass sich folgender Befehl ergibt: ssh *[username]*@*[IP-Adresse]*
+```
+$ ssh pi@192.168.x.xxx
 ```
 Unter Usmständen gibt die Konsole folgenen Ausgabe zurück.
 
@@ -88,12 +102,13 @@ In unserem Falle ist das "genau richtig", denn es bestätigt, dass das kryptogra
 ```
 ssh pi@raspberrypi
 ```
+Bevor es mit Step 5 weitergeht muss eine gültige SSH-erbingung zwischen Mac (Laptop) und RasPi  bestehen.
+<img align="right" width="80%" src="images/SSH-success.jpg">
 
 
-**MAC Konsole** 
-```console
-$ arp -a | grep raspberry
-```
+## Step 5 - Finally: mit dem Radio verbinden
+Um sich mit dem Radio zu verbinden benötigt man zunächst die MAC-Adresse des Radios. Der Einfacheit halber kann man diese direkt über die Systemeinstellungen des MAC (Laptop) auslesen: Systemeinstellungen --> Bluetooth --> Geräte scannen --> Rechtsklick auf das Radio --> Adresse notieren. Die MAC-Adresse wir immer im *kanonischen Format* angegeben: 12-34-56-78-9A-BC
+
 
 
 
