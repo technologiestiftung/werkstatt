@@ -106,7 +106,7 @@ Bevor es mit Step 5 weitergeht muss eine gültige SSH-erbingung zwischen Mac (La
 <img align="left" width="100%" src="images/WebRadio/SSH_success.png">
 
 
-## Step 5 - Finally: mit dem Radio verbinden
+## Step 5 - RasPi mit dem Radio verbinden
 Um sich mit dem Radio zu verbinden benötigt man zunächst die MAC-Adresse des Radios. Der Einfacheit halber kann man diese direkt über die Systemeinstellungen des MAC (Laptop) auslesen: Systemeinstellungen --> Bluetooth --> Geräte scannen --> Rechtsklick auf das Radio --> Adresse notieren. Die MAC-Adresse wir immer im *kanonischen Format* angegeben: 12-34-56-78-9A-BC
 
 Für die erfolgreiche Verbdindung zum Radio sind mehrere Commands nötig. Wer einen "autonomen" Raspberry konfigurieren möchte, der sollte die nachfolgenden Befehle direkt in ein Skript-File .sh schreiben. Die Skript-Datei wird dann später im Autostart aufgerufen.
@@ -116,10 +116,17 @@ Zum Verbinden mit dem Radio sind folgenden Befehle notwendig:
 $ bluetoothctl
 Agent registered
 
-$ [bluetooth]# agent on
+$ [bluetooth]# power on
 changing power on succeeded
 
+$ [bluetooth]# default-agent
+Default agent request successful
+
 $ [bluetooth]# pairable on
+changing pairable on succeeded
+
+//wichtiger command, falls man sich erneut mit mit dem gleichen Gerät verbinden möchte
+$ [bluetooth]# remove 12:34:56:78:9A:BC
 changing pairable on succeeded
 
 $ [bluetooth]# scan on
@@ -150,8 +157,44 @@ Changing 12:34:56:78:9A:BC trust succeeded
 
 //Finally: mit dem Radio verbinden
 $ [bluetooth]# connect 12:34:56:78:9A:BC
+```
 
+Wer bis hierhin gekommen ist, hat es fast geschafft!
 
+## Step 6 - Finally: WebRadio abspielen
 
+Der letzte Schritt ist der wohl simpelste. 
+Mit dem Command
+```
+vlc meinePlaylist.m3u
+```
+öffnet der bereits vorinstalliert VLC-Player die Playlist "meinePlaylist". Alle darin befindlichen Dateien wie bspw. mp3-Dateien oder weitere m3u-Dateien werden schließlich nacheinander abgespielt.
+
+Fertig.
+
+## Uns bekannte Stolpersteine
+* Audio-Ausgang des Raspberrys steht nicht auf "Auto" (0), sondern auf "Analog" (1) oder "HDMI" (2)
+```
+sudo amixer cset numid=3 0
+```
+* Raspberry ist nicht im gleichen Netzwerk (WLAN) wie der MAC
+* eurer Radio ist ein Headset --> folgendes module für pulseaudio schafft Abhilfe
+```
+$ sudo install pulseaudio-module-bluetooth
+// danach muss die Sound-Middleware, aka. Pulseaudio neu gestartet werden
+$ pulseaudio -k
+$ pulseaudio --start
+```
+* Bluetooth connection funktioniert trotzdem nicht? Vielleicht hilft:
+```
+$ sudo service bluetooth restart
+```
+* Bluetooth Status abfragen
+```
+$ systemctl status bluetooth
+```
+
+## Der "autonome" Raspberry
+### Ab hier geht's um die Autostart-Konfiguration
 
 
