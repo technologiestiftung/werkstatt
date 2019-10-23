@@ -103,7 +103,7 @@ In unserem Falle ist das "genau richtig", denn es bestätigt, dass das kryptogra
 ssh pi@raspberrypi
 ```
 Bevor es mit Step 5 weitergeht muss eine gültige SSH-erbingung zwischen Mac (Laptop) und RasPi  bestehen.
-<img align="right" width="80%" src="images/WebRadio/SSH-success.png">
+<img align="right" width="80%" src="images/WebRadio/SSH_success.png">
 
 
 ## Step 5 - Finally: mit dem Radio verbinden
