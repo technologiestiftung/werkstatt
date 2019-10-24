@@ -172,7 +172,7 @@ vlc meinePlaylist.m3u
 
 Fertig.
 
-## Uns bekannte Stolpersteine
+## Uns bekannte Stolpersteine & Troubleshooting
 * Audio-Ausgang des Raspberrys steht nicht auf "Auto" (0), sondern auf "Analog" (1) oder "HDMI" (2)
 ```
 sudo amixer cset numid=3 0
@@ -199,49 +199,58 @@ $ systemctl status bluetooth
 
 <img align="left" width="100%" src="images/WebRadio/SH_Skript.png">
 
+### Skript in den Autostart einbinden
+Um ein Programm in den Autostart des Raspberry's einzubinden gibt es verschiedene Möglichkeiten. Ein gute Übersicht dazu liefert der Beitrag auf [rasberry.tips](http://raspberry.tips/raspberrypi-einsteiger/raspberry-pi-autostart-von-skripten-und-programmen-einrichten). 
+
+In unserem How To wollen wir eine **.dektop-Datei** erstellen, um unser Skript mit dem Autostart auszuführen. Dazu erstellen wir also zunächst eine .desktop-Datei im richtigen Verzeichnis des Raspberrys mit dem folgenden Command:
+```
+sudo geany /etc/xdg/autostart/NameDerDatei.desktop&
+//durch das kaufmännische Und am Ende des Befehls, könnt ihr das Terminal weiterhin bedienen, obwohl der Texteditor geöffnet ist
+```
+Die .desktop-Dateien haben einen schematische Struktur, auf die an dieser Stelle nicht weiter eingegangen werden sollen. Schließlich schreibt ihr die folgenden Zeilen in die Datei und speichert diese ab.
+```
+[Desktop Entry]
+Type=Application
+Name=irgendeinName
+Terminal=false
+Exec=sh /usr/bin/meinSkript.sh
+```
+Nach dem Attribut "Exec=..." wird der beim Autostart auszuführende Befehl angegeben. Da wir für die Verbindung via Bluetooth und das Abspielen des WebRadio-Senders mehrere Befehle benötigen, verlinken wir an dieser Stelle also zu einem Shell Skript "meinSkript.sh".
 
 
 ### Skript erstellen
-Navigiert zum gewünschten Ort im Filesystem und erstellt und editiert ein neues File "meinFile.sh". Wichtig ist die Endung .sh, denn somit wir der Code als Shell Script interpretiert. Im Skript stehen schließlich folgenden Anweisungen:
+Navigiert zunächst zum Verzeichnis aus der .desktop-Datei (*cd /usr/bin*). Dort angekommen erstellen wir nun das Skript, welches wir beim Autostart ausführen wollen. **Wichtig ist, dass der Pfad & Name des Skripts mit dem Namen in der .desktope-Datei übereinstimmen.** Die Datei-Endung .sh, denn somit wir der Code als Shell Script interpretiert. Im Skript stehen schließlich folgenden Anweisungen:
 ```
 # !/bin/sh
 
-# gibt "Hallo Welt!" auf die Konsole aus
-echo Hallo Welt!
-# gibt das aktuelle Datum + Uhrzeit auf die Konsole aus
-date
-#gibt das das aktuelle Arbeitsverzeichnis (working directoy) aus
-pwd
+#gibts dem Raspberry Zeit hochzufahren und Treiber zu laden
+sleep 15s
 
 #ab hier folgen die Befehle für Bluetooth-Systemsteuerung
+sudo service bluetooth restart
+sleep 1s
 bluetoothctl agent on
 bluetoothctl power on
 bluetoothctl pairable on
 
-bluetoothctl scan on
-#warten 
-sleep 8s
-bluetoothctl scan off
 
-bluetoothctl pair 12:34:56:78:9A:BC
-sleep 1s
 bluetoothctl trust 12:34:56:78:9A:BC
+bluetoothctl pair 12:34:56:78:9A:BC
 sleep 1s
 bluetoothctl connect 12:34:56:78:9A:BC
 
-#5 Sekunden warten bis mit bluetooth Device connected
-sleep 5s
+#warten bis mit bluetooth Device connected
+sleep 4s
 
 # wahlweise ein Speaker Test bevor die Playlist ausgegeben wird
 # initialize a speaker test with 2 channels for 4 periods
 # speaker-test -c2 -l4 -twav
 
+bluetoothctl quit
 
 vlc ~/Documents/meinePlaylist.m3u
 
 exit 0
 ```
+
 Speichern und fertig.
-
-### Skript in den Autostart einbinden
-
