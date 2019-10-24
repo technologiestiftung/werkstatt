@@ -223,7 +223,7 @@ Navigiert zunächst zum Verzeichnis aus der .desktop-Datei (*cd /usr/bin*). Dort
 ```
 # !/bin/sh
 
-#gibts dem Raspberry Zeit hochzufahren und Treiber zu laden
+#gibt dem Raspberry Zeit hochzufahren und Treiber zu laden
 sleep 15s
 
 #ab hier folgen die Befehle für Bluetooth-Systemsteuerung
