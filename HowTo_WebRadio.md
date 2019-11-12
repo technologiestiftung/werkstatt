@@ -3,7 +3,7 @@
 
 
 &nbsp;
-# Wie man sein Bluetooth Radio zum Auto-Play WebRadio hackt
+# Wie man sein Bluetooth Radio zum Autoplay Web Radio hackt
 ## Remote Workshop für zu Hause
 
 <img align="top" width="100%" src="images/WebRadio/Header_WebRadio.jpg">
