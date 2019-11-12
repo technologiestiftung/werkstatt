@@ -8,10 +8,10 @@
 
 <img align="top" width="100%" src="images/WebRadio/Header_WebRadio.jpg">
 
-#### In dieser Bauanleitung wollen wir zeigen, wie man aus einem Bluetooth-fähigen Radio und einem Raspberry Pi 3 ein Web Radio baut. Genauer: konfiguriert. Denn gebaut wurde das Radio ja schon.
+#### In dieser Bauanleitung wollen wir zeigen, wie man aus einem Bluetooth-fähigen Radio und einem Raspberry Pi 3 ein Autoplay Web Radio baut. Genauer: konfiguriert. 
 
 ### Die Idee
-Man nehme ein Bluetooth-fähiges Radio, verknüpft dieses via Bluetooth mit einen RasPi, welcher wiederum mit dem lokalen WIFI verknüpft ist, und steuert über den Raspberry einen x-beliebigen Webradio-Sender an. In diesem Beispiel hier, haben wir die Konfigurationen in ein Shell-Skript geschrieben und dieses schließlich mit dem Autostart des Raspberrys gepackt. Und fertig ist der "autonome" RasPi ;-)
+Man nehme ein Bluetooth-fähiges Radio, verknüpft dieses via Bluetooth mit einen RasPi, welcher wiederum mit dem lokalen WIFI verknüpft ist, und steuert über den Raspberry einen x-beliebigen Webradio-Sender an. In diesem Beispiel hier, haben wir die Konfigurationen in ein Shell-Skript geschrieben und dieses schließlich mit dem Autostart des Raspberrys gepackt. Und fertig ist der "autonome" RasPi.
 
 ### Hardware
 * (d)ein Laptop/PC
