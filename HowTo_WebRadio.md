@@ -125,7 +125,7 @@ Default agent request successful
 $ [bluetooth]# pairable on
 changing pairable on succeeded
 
-//wichtiger command, falls man sich erneut mit mit dem gleichen Gerät verbinden möchte
+//wichtiger command, falls man sich erneut(!) mit dem gleichen Gerät verbinden möchte
 $ [bluetooth]# remove 12:34:56:78:9A:BC
 changing pairable on succeeded
 
@@ -138,7 +138,7 @@ Discovery started
 $ [bluetooth]# scan off
 Discovery stopped
 
-//jetzt wollen wir uns mit dem WebRadio pairen (noch nicht verbinden!)
+//mit dem WebRadio pairen (!= verbinden)
 $ [bluetooth]# pair 12:34:56:78:9A:BC
 Attempting to pair with 12:34:56:78:9A:BC
 [CHG] Device 12:34:56:78:9A:BC Connected: yes
@@ -146,7 +146,7 @@ Attempting to pair with 12:34:56:78:9A:BC
 [CHG] Device 12:34:56:78:9A:BC Paired: yes
 Pairing successful
 
-//überprüfen ob das Pairing wirklich geklappt hat
+//überprüfen ob das Pairing wirklich geklappt hat; Radio sollte gelistet werden
 $ [bluetooth]# devices
 Device 12:34:56:78:9A:BC MeinRadioName
 
@@ -204,10 +204,9 @@ Um ein Programm in den Autostart des Raspberry's einzubinden gibt es verschieden
 
 In unserem How To wollen wir eine **.dektop-Datei** erstellen, um unser Skript mit dem Autostart auszuführen. Dazu erstellen wir also zunächst eine .desktop-Datei im richtigen Verzeichnis des Raspberrys mit dem folgenden Command:
 ```
-sudo geany /etc/xdg/autostart/NameDerDatei.desktop&
-//durch das kaufmännische Und am Ende des Befehls, könnt ihr das Terminal weiterhin bedienen, obwohl der Texteditor geöffnet ist
+$ sudo geany /etc/xdg/autostart/NameDerDatei.desktop&
 ```
-Die .desktop-Dateien haben einen schematische Struktur, auf die an dieser Stelle nicht weiter eingegangen werden sollen. Schließlich schreibt ihr die folgenden Zeilen in die Datei und speichert diese ab.
+Nice to Know: durch das kaufmännische "Und" am Ende des Befehls, könnt ihr das Terminal weiterhin bedienen, obwohl der Texteditor geöffnet ist. Die .desktop-Dateien haben einen schematische Struktur, auf die an dieser Stelle nicht weiter eingegangen werden sollen. Schließlich schreibt ihr die folgenden Zeilen in die Datei und speichert diese ab.
 ```
 [Desktop Entry]
 Type=Application
