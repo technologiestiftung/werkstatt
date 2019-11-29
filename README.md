@@ -25,7 +25,7 @@ Geeignet für Neueinsteiger_innen und Teilnehmer_innen von TEIL 1. Bau von einer
 #### Workshop vom 30.08.2019 – GPS-Tracking & LoRaWAN mit dem Arduino TEIL 1/2
 Geeignet für Neueinsteiger_innen in das Thema Arduino, GPS-Tracking, serielle Kommunikation & LoRaWAN. Bau von zwei Versionen: GPS-Tracker auf Ardduino Nano mit OLED-Display (kleines Packmaß, kein LoRaWan) // GPS-Tracker auf Arduino Uno mit LoRaWan-Funktion (großes Packmaß, ohne Display)
 
-## Remote Workshops
+## Tutorials
 Einige **kleinere Projekte** und Testfälle haben wir ebenfalls dokumentiert, sodass Ihr sie nachbauen und selbst coden könnt. 
 Beispiele hierführ ist zum Beispiel die Konfiguration eines Raspberry Pi's in Verbindung mit einem bluetoothfähigen Radio, zum Einsatz als WebRadio.
 

@@ -33,7 +33,7 @@
 //  Mit der IDE mitgeliefert (darüber komuniziert das LoRa-Modul mit dem Arduino)
 
 
-//  Christian Hammel, Sara Reichert & Julia Zimmermann, Technologiestiftung Berlin, 2019
+//  Christian Hammel, Technologiestiftung Berlin, 2019
 
 
 //  Nice to have:
