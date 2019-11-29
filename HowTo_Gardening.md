@@ -19,7 +19,12 @@ Lorem Ipsum
 * Pumpe
 * Netzteil
 
-Lorem ipsum
+### Software
+
+Wähle den für Deinen Computer passenden USB Treiber zum Download aus. Entweder die Windows Version, Mac OS oder Linux.
+**Windows:** [CH341SER WIN USB Treiber](http://www.wch.cn/download/CH341SER_ZIP.html)
+**Mac:** [CH341SER MAC OS Treiber](http://www.wch.cn/download/CH341SER_MAC_ZIP.html)
+**Linux:** [CH341 Linux auf Github](https://github.com/juliagoda/CH341SER)
 
 ### First Things First: lorem ipsum
 lorem ipsum
