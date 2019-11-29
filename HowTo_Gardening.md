@@ -6,7 +6,7 @@
 # Bauanleitung Gardening Box
 ## Workshop vom 29. November 2019
 
-<img align="top" width="100%" src="images/WebRadio/citylab-logo-2160x550.jpg">
+<img align="top" width="100%" src="images/citylab-logo-2160x550.jpg">
 
 #### Lorem ipsum
 ### Die Idee
