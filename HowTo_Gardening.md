@@ -17,6 +17,7 @@ Lorem Ipsum
 * Feuchtigkeitssensor
 * Vollspektrum LED
 * Pumpe
+* Netzteil
 
 Lorem ipsum
 
