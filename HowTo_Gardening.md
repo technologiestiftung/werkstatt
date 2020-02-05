@@ -8,16 +8,18 @@
 
 <img align="top" width="100%" src="images/Gardening/Gardening_Schaltplan.png">
 
-#### Schaltplan für die Gardening Box bestehend aus: Mikrocontroller, Pumpe, Feuchtigkeitssensor und MOS Modul
+#### Schaltplan für die Gardening Box bestehend aus (v.l.n.r.): Pumpe, MOSFET Modul, Mikrocontroller und Feuchtigkeitssensor 
 ### Die Idee
-Die Novemberedition der offenen Werkstatt widmet sich dem Bau winterfester Kleingartenparadiese. Wir konstruieren vollautomatisch bewässerte Beete für die Fensterbank. Licht, Sensoren, Pumpen helfen dem/der zeitgenössischen Stadtgärtner*in bei der Arbeit. 
+Die Novemberedition der offenen Werkstatt widmet sich dem Bau winterfester Kleingartenparadiese. Wir konstruieren vollautomatisch bewässerte Beete für die Fensterbank. Eine Vollspektrum LED, Feuchtigkeitssensoren und Pumpen helfen zeitgenössischen Stadtgärtner\*innen bei der Arbeit. 
 
 ### Hardware
-* Arduino Nano
+* Arduino Nano Mikrocontroller
 * Feuchtigkeitssensor
-* Vollspektrum LED
 * Pumpe
-* Netzteil
+* MOSFET (zur Regelung des Arbeitsstromkreis' der Pumpe)
+* Netzteil (für LED & Arduino)
+
+Die einzelnen Bauelemente müssen entsprechend des Schaltkreises (siehe Abbildung oben) miteinander verkabelt werden.
 
 ### Software
 
