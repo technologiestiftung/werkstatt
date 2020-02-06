@@ -49,7 +49,7 @@ Gemäß des standardmäßigen Aufbaus einer .ino-Datei folgen im Anschluss genau
 #### setup()
 Mit der Funktion pinMode() werden verschiedene Pins entweder als INPUT, OUTPUT oder INPUT_PULLUP konfigugiert. Schauen wir uns die beiden Pins an, die wir entsprechend unserer Schaltung belegt haben.
 ```javascript
-  pinMode (5, OUTPUT); // setzt den Digital-Pin 5 als Ausgang
+  pinMode(5, OUTPUT); // setzt den Digital-Pin 5 als Ausgang
   pinMode(Sensor,INPUT_PULLUP); // setze den (analaogen) Pin A0 als Eingang und aktiviert das Pullup
 ```
 Das Pullup aktiviert die internen Pullup-Widerstände auf dem Arduino Board. Hat zur Folge, dass unser Sensor im unbeschalteten Zustand auf HIGH liegt und entsprechend Messwerte sammelt. Genauer wird an dieser Stelle nicht auf die Innenwiederstände Potentiale eingeagnen.
@@ -61,9 +61,31 @@ Mit der Funktion analogRead() kann der Messwert an einem analogen Pin ausgelesen
 ```
 
 #### if – else if – else
-lorem ipsum
+In if-else-Schleifen kann mit Hilfe von Bedingungen auf bestimmte Ereignisse – in unserem Fall "Erde trocken" bzw. "Erde ausreichend feucht" – reagiert werden, wobei der Programmcode **innerhalb** der Schleife nur dann ausgeführt wird, wenn die Bedingung der Schleife erfüllt ist. Um die Bedingungen für die Schleife zu denifieren müssen wir zunächst wissen, welche Werte unser Sensormesswert annehmen kann. Nach ein paar Testläufen haben wir uns dafür entschieden den Schwellenwert auf 960 zu setzen, da bei Wert 960 die Erde trocken war. Heißt: Ist der Messwert, den der Sensor misst größer als 960, dann schalten wir die Pumpe an und lassen sie für 10sec pumpen.
 
+```javascript
+if (messwert>960) { //Bedingung
+digitalWrite(Pump, HIGH); //Pumpe pumpt...
+delay(10000); //... fuer 10 sec
+temp=analogRead(Sensor); //neuen Sensormesswert nach pumpen messen
+}
+```
 
+In der **zweiten Schleife (else if)** fragen wir unsere zweite Bedingung ab: Wenn der Messwert, den wir nach dem pumpen gemessen haben ("temp") immer noch größer als 960 ist, dann schalten wir die Pumpe aus. Für unsere Bewässerungssystem kann das mehere Bedeutungen haben: entweder ist die Pumpe kaputt oder der Wassertank ist leer. In beiden Fällen jedoch macht es Sinn, dass man die Pumpe ausschaltet.
+
+```javascript
+else if (temp>960){ // zweite Bedingung
+  digitalWrite(Pump, LOW);
+}
+```
+In der **dritten Schleife (else)** sagen wir dem Programmcode, was er machen soll, wenn die erste und zweite Bedingung jeweils **nicht** erfüllt ist. In unserem Falle hat der Sensor einen Wert gemessen, der kleiner als 960 ist ("Erde feuchter") und wir können die Pumpe ausschalten.
+
+```javascript
+else{
+  digitalWrite(Pump, LOW);
+}
+```
+Hat man den Code fertig geschrieben muss er nur noch compiliert werde (auf das Häckchen oben links in der Arduino IDE klicken) und ihn auf das Board laden (Upload-Pfeil daneben anklicken). 
 
 ## Finally: Strom anschließen
 lorem ipsum
