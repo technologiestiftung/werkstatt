@@ -6,7 +6,7 @@
 # Bauanleitung Gardening Box (LED)
 ## Workshop vom 31. Januar 20120
 
-<img align="top" width="100%" src="images/Werkstatt_Platzhalter.png">
+<img align="top" width="100%" src="images/Lampequer.jpg">
 
 #### Die Idee
 lorem ipsum
