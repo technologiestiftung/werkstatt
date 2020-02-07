@@ -17,9 +17,15 @@ Die Novemberedition der offenen Werkstatt widmet sich dem Bau winterfester Klein
 * Feuchtigkeitssensor
 * Pumpe
 * MOSFET (zur Regelung des Arbeitsstromkreis' der Pumpe)
+* Vollspektrum LED
 * Netzteil (für LED & Arduino)
 
 Die einzelnen Bauelemente müssen entsprechend des Schaltkreises (siehe Abbildung oben) miteinander verkabelt werden. Die Vollspektrum LED taucht im Schaltplan nicht auf, da sie eigenständig, über ein externes Netzkabel versorgt wird (aber dazu später mehr).
+
+#### LED
+<img align="top" width="100%" src="images/Gardening/Werkstatt_Platzhalter.jpg">
+
+
 
 ### Software – Setup
 Damit die Pumpe automatisiert durch den Arduniona angeteuert werden kann, muss dieser entsprechend programmiert werden. Dazu schließt man den Mikrocontroller zunächst via Mini-USB-Anschluss an seinen Client (Laptop, ThinClient, PC, etc.) an und öffnet die Arduino IDE. Wer die Entwicklungsumgebung von Arduino bis dato noch nicht installiert hat, sollte das an dieser Stelle mit Hilfe der [offiziellen Website](https://www.arduino.cc/en/main/software) tun.
@@ -88,6 +94,4 @@ else{
 Hat man den Code fertig geschrieben muss er nur noch compiliert werde (auf das Häckchen oben links in der Arduino IDE klicken) und ihn auf das Board laden (Upload-Pfeil daneben anklicken). 
 
 ## Finally: Strom anschließen
-lorem ipsum
 
-Bildung war hier
