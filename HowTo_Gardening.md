@@ -23,7 +23,7 @@ Die Novemberedition der offenen Werkstatt widmet sich dem Bau winterfester Klein
 Die einzelnen Bauelemente müssen entsprechend des Schaltkreises (siehe Abbildung oben) miteinander verkabelt werden. Die Vollspektrum LED taucht im Schaltplan nicht auf, da sie eigenständig, über ein externes Netzkabel versorgt wird (aber dazu später mehr).
 
 #### LED
-<img align="top" width="100%" src="images/Gardening/Werkstatt_Platzhalter.jpg">
+<img align="top" width="100%" src="images/Werkstatt_Platzhalter.jpg">
 
 
 
