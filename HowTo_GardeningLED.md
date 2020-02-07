@@ -7,6 +7,7 @@
 ## Workshop vom 31. Januar 20120
 
 <img align="top" width="100%" src="images/Gardening/Lampequer.jpg">
+<img align="top" width="100%" src="images/Lampehome.jpg">
 
 #### Die Idee
 lorem ipsum
