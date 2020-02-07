@@ -218,7 +218,7 @@ Nach dem Attribut "Exec=..." wird der beim Autostart auszuführende Befehl angeg
 
 
 ### Skript erstellen
-Navigiert zunächst zum Verzeichnis aus der .desktop-Datei (*cd /usr/bin*). Dort angekommen erstellen wir nun das Skript, welches wir beim Autostart ausführen wollen. **Wichtig ist, dass der Pfad & Name des Skripts mit dem Namen in der .desktope-Datei übereinstimmen.** Die Datei-Endung .sh, denn somit wir der Code als Shell Script interpretiert. Im Skript stehen schließlich folgenden Anweisungen:
+Navigiert zunächst zum Verzeichnis aus der .desktop-Datei (*cd /usr/bin*). Dort angekommen erstellen wir nun das Skript, welches wir beim Autostart ausführen wollen. **Wichtig ist, dass der Pfad & Name des Skripts mit dem Namen in der .desktop-Datei übereinstimmen.** Die Datei-Endung .sh, denn somit wir der Code als Shell Script interpretiert. Im Skript stehen schließlich folgenden Anweisungen:
 ```
 # !/bin/sh
 
