@@ -25,6 +25,6 @@ In den **How To's** findet ihr eine ausführliche Anleitun zu den jeweiligen Wor
 Einige **kleinere Projekte** und Testfälle haben wir ebenfalls dokumentiert, sodass Ihr sie nachbauen und selbst coden könnt. 
 Beispiele hierführ ist zum Beispiel die Konfiguration eines Raspberry Pi's in Verbindung mit einem bluetoothfähigen Radio, zum Einsatz als WebRadio. Die ausführliche Anleitung zum Tutorial findet ihr in diesem Repository unter [HowTo_WebRadio.md](https://github.com/technologiestiftung/werkstatt/blob/master/HowTo_WebRadio.md)
 
-## Gastbeiträges
-Am 28. Feburar 2020 waren die [Freifunker](https://freifunk.net/) zu Gast in der offenen Werkstatt. Dabei vermittelten die Freifunker Grundlagen zum Thema Funk, Netzwerk und Router-Wartung und betreuten kleine Projekte wie "Netzwerkkabel crimpen" und "Freifunk Router flashen" direkt vor Ort in der Werkstatt. Die ausführliche Ideenbeschreibungen zu allen Workshop-Ideen, sowie Hintergrundinfo`s zum Förderverein findet ihr in diesem Repository im Ordner [documents](https://github.com/technologiestiftung/werkstatt/tree/master/documents).
+## Gastbeiträge
+Am 28. Feburar 2020 waren die [Freifunker](https://freifunk.net/) zu Gast in der offenen Werkstatt. Dabei vermittelte der Förderverein Grundlagen zum Thema Funk, Netzwerk und Router-Wartung und betreuten kleine Projekte wie "Netzwerkkabel crimpen" und "Freifunk Router flashen" direkt vor Ort in der Werkstatt. Die ausführliche Ideenbeschreibungen zu allen Workshop-Ideen, sowie Hintergrundinfos zum Förderverein findet ihr in diesem Repository im Ordner [documents](https://github.com/technologiestiftung/werkstatt/tree/master/documents).
 
