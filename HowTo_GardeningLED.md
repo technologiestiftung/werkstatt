@@ -4,7 +4,7 @@
 
 &nbsp;
 # Bauanleitung Gardening Box (LED)
-## Workshop vom 31. Januar 20120
+## Workshop vom 31. Januar 2020
 
 <img align="top" width="100%" src="images/Gardening/Lampequer.jpg">
 <img align="left" width="50%" src="images/Lampehome.jpg">
