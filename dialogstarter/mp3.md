@@ -9,5 +9,5 @@
 
 <img align="left" width="50%" src="images/adapter.jpg">
 
-#### for testing download animal sounds
+#### animal sounds for testing
 https://freeanimalsounds.org/de/bauernhof/
