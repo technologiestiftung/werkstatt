@@ -1,4 +1,6 @@
 <img align="right" width="20%" src="images/dialog.png">
+<img align="center" width="20%" src="images/logot.jpg">
+<img align="left" width="20%" src="images/logoc.jpg">
 
 # Welcome!
 
