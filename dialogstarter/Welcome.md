@@ -1,3 +1,5 @@
+<img align="right" width="20%" src="images/dialog.png">
+
 # Welcome!
 
 blabla 
