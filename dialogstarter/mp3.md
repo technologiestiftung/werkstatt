@@ -1,4 +1,4 @@
-<img align="right" width="30%" src="images/dtfgr.jpg">
+<img align="right" width="40%" src="images/dtfgr.jpg">
 
 # DTF mp3 Player- HowTo
 
@@ -9,9 +9,11 @@
 
 ### Step 2: Copy mp3 data to SD-Card
 
-<img align="left" width="50%" src="images/adapter.jpg">
+<img align="left" width="40%" src="images/adapterr.jpg">
 
 #### animal sounds for testing
 https://freeanimalsounds.org/de/bauernhof/
 
 ### Step 3: Insert SD Cart to dtf Player
+
+<img align="left" width="40%" src="images/insertr.jpg">
