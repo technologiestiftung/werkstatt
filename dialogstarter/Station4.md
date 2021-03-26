@@ -176,6 +176,13 @@ Natürlich lässt sich auch direkt ein Logo konvertieren und in der Größe anpa
 
 `convert -resize 128x32\! -monochrome dialogstarter_logo.png dialogstarter_logo.xbm`
 
+
+Noch besser mit `+dither`:
+`convert -resize 128x64\! -monochrome +dither dialogstarter_logo.png dialogstarter_logo.xbm`
+
+<img align="center" width="80%" src="images/dialogstarter_32_dither.jpg">
+
+
 ```
 
 #define dialogstarter_logo_width 128
