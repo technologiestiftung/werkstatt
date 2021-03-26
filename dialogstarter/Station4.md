@@ -17,6 +17,11 @@ void loop(void) {
 2. Schreibe eigenen Text:
 `u8g2.drawStr(x, y, "blabla");`  x,y geben die Position des Texts an. Wobei x eine Zahle zwischen 0 und 128 ist und y eine Zahl zwischen 0 und 32
 
+## Bilder ausgeben
+
+1. Lade ...ino
+2. Füge deinen eigenen Icon ein
+
 
 ## xbm Editor
 just run it in your python environment
