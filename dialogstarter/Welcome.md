@@ -10,11 +10,24 @@
 ---
 
 # Wer sind wir? 
+## Dialogstarter
 
 <img align="center" width="800" src="images/diastart.png">
 
 https://www.citylab-berlin.org/projects/dialogstarter/
+
 ---
+
+## Technologiestiftung Berlin
+
+
+
+https://www.citylab-berlin.org/projects/werkstatt/
+
+<img align="center" width="800" src="images/werkstartstart.png">
+
+---
+
 
 # Hardware and Software HowTo
 
