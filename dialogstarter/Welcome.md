@@ -7,7 +7,13 @@
 
 <img align="center" width="800" src="images/start.jpg">
 
-blabla 
+---
+
+# Wer sind wir? 
+
+<img align="center" width="800" src="images/diastart.png">
+
+https://www.citylab-berlin.org/projects/dialogstarter/
 ---
 
 # Hardware and Software HowTo
