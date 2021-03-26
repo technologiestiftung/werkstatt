@@ -135,6 +135,9 @@ static unsigned char my_bits[] = {
   
   ```
 
+##Converted PNG logo created with imagemagick -  is it distorted?
+
+
   ```
 
 
