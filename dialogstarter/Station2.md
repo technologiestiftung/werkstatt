@@ -14,6 +14,7 @@ Der Lichtsensor ist beim Calliope mini kein eigenständiges Bauteil. Stattdessen
 <img align="center" width="80%" src="images/calliopetheremin.png">
 
 https://books.google.de/books?id=ibdJDwAAQBAJ&pg=PT74&lpg=PT74&dq=theremin+calliope#v=onepage&q=theremin%20calliope&f=false
+
 https://www.inf-schule.de/vernetzung/calliope/sensoren/lichtsensor
 
 
@@ -24,7 +25,7 @@ Ich zeig euch ein Video!
 <img align="center" width="80%" src="images/calliopeultraschall.jpg">
 
 
-## Inspiration
+## Lasst euch inspirieren
 
 Grafische Programmierung geht auch mit dem Arduino:
 http://blog.ardublock.com/
