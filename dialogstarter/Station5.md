@@ -4,7 +4,7 @@
 
 ## Der mp3 player kann über den Mikrocontroller gesteuert werden, geht aber auch ohne.
 
-### Step 1: Connections
+### Step 1: Hardware
 
 <img align="center" width="100%" src="images/wiredtf.jpg">
 
@@ -32,7 +32,13 @@
 
 1. nach dtf im Bibliothekenmanager suchen. Siehe Bild
 2. Installieren
-3. mp3esp.ino hochladen:  
+3. mp3esp.ino kopieren und hochladen:  https://github.com/Sarapedia/werkstatt/blob/master/dialogstarter/Code/mp3esp.ino
+4. den Finger vorsichtig auf den Lautsprecher legen. Vibriert es?
+
+## Code anpassen für mehr Spaß
+
+
+## DTF Mini ohne Mikrocontroller steuern.
 
 
 
