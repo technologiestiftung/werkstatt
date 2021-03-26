@@ -1,4 +1,8 @@
+
+<img align="center" width="80%" src="images/lighttovib.jpg">
 # Vibration-Sound-Light Transformation 
+
+
 
 ---
 ## 5 Minuten Zeit um 
