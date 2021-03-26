@@ -18,13 +18,28 @@ https://www.citylab-berlin.org/projects/dialogstarter/
 
 ---
 
-## Technologiestiftung Berlin
-
-
+## Technologiestiftung Berlin 
 
 https://www.citylab-berlin.org/projects/werkstatt/
 
-<img align="center" width="800" src="images/werkstartstart.png">
+<img align="center" width="80%" src="images/werkstart.png">
+
+### Raum für Experimente
+
+<img align="center" width="80%" src="images/wir.jpg">
+
+---
+
+# Was ist GitHub? 
+
+
+
+
+
+
+
+
+
 
 ---
 
