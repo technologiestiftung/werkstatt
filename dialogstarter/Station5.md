@@ -25,10 +25,15 @@
 
 ---
 
-### Step 4: Uplod Test-Code
+### Step 4: dtf Bibliothek einbinden und Test-Code hochladen
 
-Hier ist die Bibliothek für den DFT- Mini Player zu finden:
+<img align="center" width="20%" src="images/bib1.jpg">
+<img align="center" width="20%" src="images/bib2.jpg">
+
+1. nach dtf im Bibliothekenmanager suchen. Siehe Bild
+2. Installieren
+3. mp3esp.ino hochladen:  
 
 
 
-dialogstarter/Code/mp3esp.ino 
+
