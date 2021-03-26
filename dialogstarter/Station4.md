@@ -239,6 +239,10 @@ static char dialogstarter_logo_bits[] = {
 
 # Dialogstarter
 
+<img align="center" width="80%" src="DialogstarterKarte.pdf">
+
+
+
 Kann ich Ihnen
 duzen?
 
