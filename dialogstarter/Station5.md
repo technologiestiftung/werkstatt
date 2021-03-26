@@ -27,8 +27,8 @@
 
 ### Step 4: dtf Bibliothek einbinden und Test-Code hochladen
 
-<img align="center" width="20%" src="images/bib1.jpg">
-<img align="center" width="20%" src="images/bib2.jpg">
+<img align="center" width="20%" src="images/bib1.png">
+<img align="center" width="20%" src="images/bib3.png">
 
 1. nach dtf im Bibliothekenmanager suchen. Siehe Bild
 2. Installieren
