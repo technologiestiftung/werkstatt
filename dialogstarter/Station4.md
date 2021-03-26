@@ -47,6 +47,18 @@ static unsigned char tier_bits[] = {
    0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
    */
 ```
+Wichtig ist, dass man die Void Loop Funktion anpasst: `dog_width, dog_height, dog_bits` muss hier `tier_width, tier_height, tier_bits`heißen!
+
+```
+void loop() {
+  u8g2.firstPage();
+  do{
+    u8g2.drawXBMP(0,0,dog_width,dog_height,dog_bits);
+    delay(3000);
+  }while(u8g2.nextPage());
+
+}
+```
 ## Wo bekomme ich .xbm Bilddatein her?
 
 1. im Ordner : https://github.com/Sarapedia/werkstatt/blob/master/dialogstarter/xbmexamples.md
