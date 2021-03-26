@@ -9,9 +9,12 @@ https://de.wikipedia.org/wiki/Theremin
 
 https://calliope.cc/programmieren/editoren
 
+Der Lichtsensor ist beim Calliope mini kein eigenständiges Bauteil. Stattdessen sind LEDs nicht nur zur Erzeugung von Licht geeignet sondern auch zur Wahrnehmung von Helligkeit. Unser Lichtsensor ist also die 5x5-LED-Matrix. 
+
 <img align="center" width="80%" src="images/calliopetheremin.png">
 
 https://books.google.de/books?id=ibdJDwAAQBAJ&pg=PT74&lpg=PT74&dq=theremin+calliope#v=onepage&q=theremin%20calliope&f=false
+https://www.inf-schule.de/vernetzung/calliope/sensoren/lichtsensor
 
 
 ## So kann es auch aussehen
