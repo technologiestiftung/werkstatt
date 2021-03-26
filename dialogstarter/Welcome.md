@@ -33,14 +33,17 @@ https://www.citylab-berlin.org/projects/werkstatt/
 # Was ist GitHub? 
 
 ## Eine Tour durch unser Repository
-### Bildschirm einrichten... Vorschlag:
+### Bildschirm einrichten... Vorschlag: 2 Fenster nebeneinander
 
+<img align="center" width="80%" src="images/screen.jpg">
 
-
- https://github.com/Sarapedia/werkstatt/tree/master/dialogstarter
+Link zu Github: https://github.com/Sarapedia/werkstatt/tree/master/dialogstarter
 
 ---
 
+# Github-Übung
+
+## öffne welcome.md :
 
 
 
