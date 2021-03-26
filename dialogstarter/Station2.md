@@ -12,17 +12,18 @@ https://calliope.cc/programmieren/editoren
 
 https://books.google.de/books?id=ibdJDwAAQBAJ&pg=PT74&lpg=PT74&dq=theremin+calliope#v=onepage&q=theremin%20calliope&f=false
 
-## So kann es aussehen
-
-<img align="center" width="80%" src="images/calliopeultraschall.jpg">
+## So kann es auch aussehen
 
 Ich zeug euch ein Video!
+
+<img align="center" width="80%" src="images/calliopeultraschall.jpg">
 
 ## Inspiration
 
 Grafische Programmierung geht auch mit dem Arduino:
-
 http://blog.ardublock.com/
+
+Es lohnt sich, auchmal auf Hackster, Instructables & Co vorbeizuschaueb:
 
 https://www.instructables.com/howto/theremin/
 
