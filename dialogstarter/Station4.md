@@ -165,7 +165,8 @@ static char my_bits[] = {
 
 ```
 
-### In den Arduino Sketch kopieren und `unisgned` hinzufügen
+In den Arduino Sketch kopieren und `unsigned` hinzufügen, so dass da `static unsigned char my_bits[] = {` steht
+
 
 
 ---
