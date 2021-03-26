@@ -102,10 +102,13 @@ static unsigned char tier_bits[] = {
    0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
 ```
 
-#Imagemagick geht auch!
+## Imagemagick geht auch!
 
 https://imagemagick.org/script/download.php
 https://imagemagick.org/script/command-line-processing.php
+
+<img align="center" width="80%" src="images/rgbpaint.png">
+
 
 Datei als BMP oder ICO speichern
 
