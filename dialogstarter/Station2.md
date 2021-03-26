@@ -11,3 +11,13 @@ https://calliope.cc/programmieren/editoren
 <img align="center" width="80%" src="images/calliopetheremin.png">
 
 https://books.google.de/books?id=ibdJDwAAQBAJ&pg=PT74&lpg=PT74&dq=theremin+calliope#v=onepage&q=theremin%20calliope&f=false
+
+Grafische Programmierung geht auch mit dem Arduino:
+http://blog.ardublock.com/
+
+## Inspiration auf Hackster, Instructables etc.
+
+https://www.instructables.com/howto/theremin/
+https://www.hackster.io/search?i=projects&q=theremin
+http://www.gaudi.ch/OpenTheremin/
+https://www.tindie.com/search/?q=theremin
