@@ -7,7 +7,7 @@
 1. Download+ Install https://www.arduino.cc/en/software
 2. Schreibe ein "a" in den Chat, wenn Arduino IDE startklar ist.
 
-### Einstellungen für unseren Mikrocontroller
+## Einstellungen für unseren Mikrocontroller
 
 <img align="center" width="80%" src="images/pref.png">
 
@@ -15,13 +15,13 @@ Diesen link kopieren und wie im Bild einsetzen: http://arduino.esp8266.com/stabl
 
 <img align="center" width="80%" src="images/bordverw.png">
 
-### Driver?
+## Treiber?
 
 Treiber werden bei der Installation von Arduino mitgeliefert.
 
 Wer einen Wemos D1-Mikrocontroller benutzt und es Probleme gibt: https://sparks.gogo.co.nz/ch340.html
 
-### Programmieren ist... viel kopieren
+## Programmieren ist... viel kopieren
 
 <img align="center" width="80%" src="images/code.png">
 
@@ -29,7 +29,7 @@ Hier liegt Code zum kopieren: https://github.com/Sarapedia/werkstatt/blob/master
 
 ---
 
-### Bibliothek einbinden
+## Bibliothek einbinden
 
 Bevor alles funktioniert und ein Hund auf dem Display erscheint, brauchst Du noch eine Libary
 
