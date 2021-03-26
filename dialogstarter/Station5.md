@@ -27,13 +27,17 @@
 
 ### Step 4: dtf Bibliothek einbinden und Test-Code hochladen
 
-<img align="center" width="20%" src="images/bib1.png">
-<img align="center" width="20%" src="images/bib3.png">
+<img align="center" width="80%" src="images/bib1.png">
+<img align="center" width="80%" src="images/bib3.png">
 
 1. nach dtf im Bibliothekenmanager suchen. Siehe Bild
 2. Installieren
 3. mp3esp.ino kopieren und hochladen:  https://github.com/Sarapedia/werkstatt/blob/master/dialogstarter/Code/mp3esp.ino
 4. den Finger vorsichtig auf den Lautsprecher legen. Vibriert es?
+
+## Bilder passend zur mp3
+
+Hiermit können Bilder passend zur mp3 ausgegeben werden: https://github.com/Sarapedia/werkstatt/blob/master/dialogstarter/Code/mp3undbild.ino
 
 ## Code anpassen für mehr Spaß
 
