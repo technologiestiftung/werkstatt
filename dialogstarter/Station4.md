@@ -32,3 +32,4 @@ static unsigned char tier_bits[] = {
    0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
 ```
 
+https://imagemagick.org/script/command-line-processing.php
