@@ -19,7 +19,7 @@ void loop(void) {
 
 ## Bilder ausgeben
 
-1. Lade ...ino
+1. Lade displayxpm.ino
 2. Füge deinen eigenen Icon ein
 
 ## Das .xbm Format funktioniert gut! So sieht ein Pferd aus
@@ -49,7 +49,8 @@ static unsigned char tier_bits[] = {
 ```
 ## Wo bekomme ich .xbm Bilddatein her?
 
-1. im Ordner 
+1. im Ordner : https://github.com/Sarapedia/werkstatt/blob/master/dialogstarter/xbmexamples.md
+
    
    
 
