@@ -1,12 +1,11 @@
-<img align="right" width="20%" src="images/dialog.png">
-<img align="center" width="10%" src="images/logot.jpeg">
-<img align="left" width="20%" src="images/logoc.jpeg">
+<img align="right" width="160" src="images/dialog.png">
+<img align="right" width="160" src="images/logot.jpeg">
+<img align="right" width="160" src="images/logoc.jpeg">
 
----
 
-# Welcome!
+# Offene Werkstatt "Kommunikation"
 
-<img align="left" width="50%" src="images/start.jpg">
+<img align="center" width="800" src="images/start.jpg">
 
 blabla 
 ---
