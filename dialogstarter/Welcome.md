@@ -37,14 +37,16 @@ https://www.citylab-berlin.org/projects/werkstatt/
 
 <img align="center" width="80%" src="images/screen.jpg">
 
-Link zu Github: https://github.com/Sarapedia/werkstatt/tree/master/dialogstarter
+
 
 ---
 
 # Github-Übung
 
-1. öffne welcome.md 
-2. und jetzt zum dialogstarter Hauptordner mit Hilfe vom Repositorypfad 
+1. Link zu Github: https://github.com/Sarapedia/werkstatt/tree/master/dialogstarter
+2. öffne welcome.md : https://github.com/Sarapedia/werkstatt/blob/master/dialogstarter/Welcome.md
+3. Klopfe Dir auf die Schulter und mache ein + in den Chat bei BigBlueButton
+4. jetzt zum dialogstarter Hauptordner mit Hilfe vom Repositorypfad ...siehe unten
 
 <img align="center" width="80%" src="images/gitman.png">
 
