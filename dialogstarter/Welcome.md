@@ -32,6 +32,14 @@ https://www.citylab-berlin.org/projects/werkstatt/
 
 # Was ist GitHub? 
 
+## Eine Tour durch unser Repository
+### Bildschirm einrichten... Vorschlag:
+
+
+
+ https://github.com/Sarapedia/werkstatt/tree/master/dialogstarter
+
+---
 
 
 
