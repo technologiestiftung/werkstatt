@@ -1,6 +1,22 @@
-# esp+Display 
+# Display 
 
-anleitung
+## Text ausgeben
+
+1. Lade displaytext.ino (liegt bei dialogstarter/code)
+
+```
+void loop(void) {
+  u8g2.clearBuffer();					// clear the internal memory
+  u8g2.setFont(u8g2_font_ncenB08_tr);	// choose a suitable font
+  u8g2.drawStr(0,10,"Morgen ist");	// write something to the internal memory
+  u8g2.drawStr(50,20,"Samstag");
+  u8g2.sendBuffer();					// transfer internal memory to the display
+  delay(3000);  
+}
+```
+2. Schreibe eigenen Text:
+`u8g2.drawStr(x, y, "blabla");`  x,y geben die Position des Texts an. Wobei x eine Zahle zwischen 0 und 128 ist und y eine Zahl zwischen 0 und 32
+
 
 ## xbm Editor
 just run it in your python environment
