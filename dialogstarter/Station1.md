@@ -14,9 +14,20 @@
 ## Hardware 
 
 <img align="center" width="80%" src="images/hardwarest1.jpg">
+
 ---
 
 ## Zusammenbauen
 
 <img align="center" width="80%" src="images/st1.jpg">
+
+## Test
+
+1. Solarzelle mit Stroboskoplicht beleuchten
+2. Finger (vorsichtig) auf Lautsprecher legen
+3. Fühlt ihr was?
+4. Gratuliere Dir zum Bau eines Wellen-Transformationsgeräts!
+
+## Was kann man daraus machen?
+Chat, Chat,Chat
 
