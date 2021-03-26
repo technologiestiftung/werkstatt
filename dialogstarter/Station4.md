@@ -2,7 +2,7 @@
 
 ## Text ausgeben
 
-1. Lade displaytext.ino (liegt bei dialogstarter/code)
+1. Lade displaytext.ino auf den Controller : https://github.com/Sarapedia/werkstatt/blob/master/dialogstarter/Code/TextDisplay.ino
 
 ```
 void loop(void) {
