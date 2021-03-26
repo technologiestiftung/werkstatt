@@ -19,7 +19,7 @@ void loop(void) {
 
 ## Bilder ausgeben
 
-1. Lade displayxpm.ino
+1. Lade die Datei displayxpm.ino auf den Controller: https://github.com/Sarapedia/werkstatt/blob/master/dialogstarter/Code/displayxbm.ino
 2. Füge deinen eigenen Icon ein
 
 ## Das .xbm Format funktioniert gut! So sieht ein Pferd aus
