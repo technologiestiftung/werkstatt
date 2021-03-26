@@ -45,5 +45,7 @@ Hiermit können Bilder passend zur mp3 ausgegeben werden: https://github.com/Sar
 ## DTF Mini ohne Mikrocontroller steuern.
 
 
+<img align="center" width="80%" src="images/schalt2.png">
+<img align="center" width="80%" src="images/schalt3.png">
 
 
