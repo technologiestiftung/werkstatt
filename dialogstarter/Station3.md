@@ -2,10 +2,10 @@
 
 <img align="center" width="80%" src="images/spaceesp.png">
 
-1. 3 Minuten Zeit, um ein Mikro USB Kabel zu holen (Handyladekabel, Powerbankkabel)
+## 3 Minuten Zeit, um ein Mikro USB Kabel zu holen (Handyladekabel, Powerbankkabel)
 
-2. Download+ Install https://www.arduino.cc/en/software
-3. Schreibe ein "a" in den Chat, wenn Arduino IDE startklar ist.
+1. Download+ Install https://www.arduino.cc/en/software
+2. Schreibe ein "a" in den Chat, wenn Arduino IDE startklar ist.
 
 ### Einstellungen für unseren Mikrocontroller
 
@@ -41,7 +41,7 @@ Im Boardverwalter nach u8g2 suchen
 
 ---
 
-### Startklar! Teste Dein Programm
+## Startklar! Teste Dein Programm
 
 1. Richtiger Port eingestellt?
 2. Stecker drin?
