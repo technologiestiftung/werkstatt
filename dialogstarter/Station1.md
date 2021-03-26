@@ -29,5 +29,5 @@
 4. Gratuliere Dir zum Bau eines Wellen-Transformationsgeräts!
 
 ## Was kann man daraus machen?
-Chat, Chat,Chat
+Chat, Chat, Chat
 
