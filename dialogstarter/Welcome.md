@@ -1,10 +1,12 @@
 <img align="right" width="20%" src="images/dialog.png">
-<img align="center" width="20%" src="images/logot.jpeg">
+<img align="center" width="10%" src="images/logot.jpeg">
 <img align="left" width="20%" src="images/logoc.jpeg">
 
 ---
 
 # Welcome!
+
+<img align="left" width="50%" src="images/start.jpg">
 
 blabla 
 ---
