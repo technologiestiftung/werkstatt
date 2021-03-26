@@ -63,6 +63,10 @@ void loop() {
 
 1. im Ordner : https://github.com/Sarapedia/werkstatt/blob/master/dialogstarter/xbmexamples.md
 
+2. Wenn Du python hast, dann kannst Du Dir mit dem xbm- Editor (siehe unten selber Bilder erzeugen)
+3. Kein Python? Bestell dein Wunschbild bei einem Teilnehmer, der Python hat. Das Bild kann in den Ordner xbmexamples.md hoch und runtergeladen werden.
+
+
    
    
 
