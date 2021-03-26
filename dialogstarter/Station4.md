@@ -167,6 +167,11 @@ static char my_bits[] = {
 
 In den Arduino Sketch kopieren und `unsigned` hinzufügen, so dass da `static unsigned char my_bits[] = {` steht
 
+
+<img align="center" width="80%" src="images/dialogstarter_32.jpg">
+
+
+
 Natürlich lässt sich auch direkt ein Logo konvertieren und in der Größe anpassen:
 
 `convert -resize 128x32\! -monochrome dialogstarter_logo.png dialogstarter_logo.xbm`
