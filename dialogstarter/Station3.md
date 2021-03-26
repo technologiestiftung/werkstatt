@@ -25,4 +25,10 @@ Wer einen Wemos D1-Mikrocontroller benutzt und es Probleme gibt: https://sparks.
 
 <img align="center" width="80%" src="images/code.png">
 
+Hier liegt Code zum kopieren: https://github.com/Sarapedia/werkstatt/blob/master/dialogstarter/Code/displayxbm.ino
+
+Bevor alles funktioniert und ein Hund auf dem Display erscheint, brauchst Du noch eine Libary
+
+<img align="center" width="80%" src="images/bib1.png">
+
 
