@@ -2,7 +2,7 @@
 
 # DTF mp3 Player- HowTo
 
-## Controlled by microcontroller
+## Der mp3 player kann über den Mikrocontroller gesteuert werden, geht aber auch ohne.
 
 ### Step 1: Connections
 
@@ -26,5 +26,9 @@
 ---
 
 ### Step 4: Uplod Test-Code
+
+Hier ist die Bibliothek für den DFT- Mini Player zu finden:
+
+
 
 dialogstarter/Code/mp3esp.ino 
