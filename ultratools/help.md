@@ -17,3 +17,7 @@
 ## Link to Asciioled
 
 https://github.com/technologiestiftung/werkstatt/blob/master/ultratools/code/asciioled.ino
+
+# Level 3
+
+<img align="top" width="100%" src="images/oledmatrix.jpg">
