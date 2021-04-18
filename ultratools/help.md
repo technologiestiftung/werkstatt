@@ -27,7 +27,7 @@ https://github.com/technologiestiftung/werkstatt/blob/master/ultratools/code/asc
 
 ## How to draw a dot at a certain position
 
-`
+``
 void loop(void) {
   u8g2.clearBuffer(); 
   u8g2.setFont(u8g2_font_ncenB08_tr);
@@ -55,7 +55,8 @@ void loop(void) {
   u8g2.sendBuffer();          // transfer internal memory to the display
   delay(4000);  
   }
-`  
+  
+``  
 
 <img align="top" width="100%" src="images/oledxy.jpg">
 
