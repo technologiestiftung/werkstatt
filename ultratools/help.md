@@ -174,7 +174,7 @@ https://github.com/Sarapedia/werkstatt/blob/master/dialogstarter/xbmexamples.md
 
 
 1. Python xbm image editor: https://sourceforge.net/projects/simple-xbm-image-editor/files/
-2. draw somthing (black and white), save as jpg , open with gimp and  --> Image --> scale image --> 50 x 50 is a good size --> resulution: 60 --> File --> export...give it a filname.xbm -->save --> open it in a text editor 
+2. draw somthing (black and white), save as jpg , open with gimp and  --> Image --> scale image --> 50 x 50 is a good size --> resolution: 60 --> File --> export...give it a filname.xbm -->save --> open it in a text editor 
 
 ## Moving X-Bitmap
 
