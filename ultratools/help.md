@@ -81,7 +81,10 @@ delay(4000);
 5. upload
 6. improuve the code
 7. upload again
+
 <img align="top" width="100%" src="images/oledmatrix1.jpg">
+
+This code shows you the improuved dancer:  https://github.com/technologiestiftung/werkstatt/blob/master/ultratools/code/dance.ino
 
 
 
