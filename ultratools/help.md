@@ -57,9 +57,21 @@ https://github.com/technologiestiftung/werkstatt/blob/master/ultratools/code/asc
   }
   
 ```  
+There is space for 128 dots in x direction and 32 dots in y direction
 
 <img align="top" width="100%" src="images/oledxy.jpg">
 
-<img align="top" width="100%" src="images/oledmatrix.jpg">
+This code draws 3 dots at position x = 15 and y = 11 for 4 seconds
+
+```
+u8g2.clearBuffer(); 
+u8g2.setFont(u8g2_font_ncenB08_tr);
+u8g2.drawStr(15,11,"...");
+u8g2.sendBuffer();          
+delay(4000); 
+
+```
+
+<img align="top" width="100%" src="images/oledmatrix1.jpg">
 
 # Level 4: Display x-Bitmaps on oled
