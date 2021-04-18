@@ -72,6 +72,17 @@ delay(4000);
 
 ```
 
+## How to draw an icon - suggestion for workflow
+
+1. open a text editor
+2. create a small table (15x15 works good for the start)
+3. draw your icon into that table like in the image below
+4. transfer the icon into code
+5. upload
+6. improuve the code
+7. upload again
 <img align="top" width="100%" src="images/oledmatrix1.jpg">
+
+
 
 # Level 4: Display x-Bitmaps on oled
