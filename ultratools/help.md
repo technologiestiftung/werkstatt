@@ -88,10 +88,21 @@ This code shows you the improuved dancer:  https://github.com/technologiestiftun
 
 
 
-# Level 4: Display x-Bitmaps on oled
+# Level 4: Display X-Bitmaps on oled
+
+## Exampels
 
 https://github.com/Sarapedia/werkstatt/blob/master/dialogstarter/Code/displayxbm.ino
 
 https://github.com/Sarapedia/werkstatt/blob/master/dialogstarter/xbmexamples.md
 
-https://sourceforge.net/projects/simple-xbm-image-editor/files/
+
+## How to create an X-Bitmap
+
+
+1. Python xbm image editor: https://sourceforge.net/projects/simple-xbm-image-editor/files/
+2. draw somthing (black and white), save as jpg , open with gimp and  --> Image --> scale image --> 50 x 50 is a good size --> resulution: 60 --> File --> export...give it a filname.xbm -->save --> open it in a text editor 
+
+## Moving X-Bitmap
+
+https://github.com/technologiestiftung/werkstatt/blob/master/ultratools/code/movingsnail.ino
