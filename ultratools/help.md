@@ -1,4 +1,4 @@
-# Level 1
+# Level 1 "Hello World"
 
 <img align="center" width="50%" src="images/esput.jpg">
 
@@ -10,12 +10,12 @@
 2. Just copy and include like shown in the upper blue box http://arduino.esp8266.com/stable/package_esp8266com_index.json
 3. You can download u8g2 libary from here if its not in Arduino Libary Manager https://github.com/olikraus/u8g2
 
-## Troubleshooting level 1
+## Troubleshooting "Level 1"
 
 1. You use MacOS Big Sur and during upload you get an error that mentions pySerial Direction not found: https://forum.arduino.cc/t/pyserial-and-esptools-directory-error/671804/13
 2. Uploaded but you can't see "Hello World" on your oled? Plug USB cable in and out.
  
-# Level 2: Upload Code from GitHub
+# Level 2: "Upload Code from GitHub"
 
 <img align="top" width="100%" src="images/ultratools3.jpg">
 
@@ -23,9 +23,41 @@
 
 https://github.com/technologiestiftung/werkstatt/blob/master/ultratools/code/asciioled.ino
 
-# Level 3: Drawing with ascii 
+# Level 3: "Drawing with ascii" 
 
+## How to draw a dot at a certain position
 
+`
+void loop(void) {
+  u8g2.clearBuffer(); 
+  u8g2.setFont(u8g2_font_ncenB08_tr);
+  u8g2.drawStr(17,4,"...."); 
+  u8g2.drawStr(17,7,".  .");// write something to the internal memory
+  u8g2.drawStr(17,10,"....");  // write something to the internal memory
+  u8g2.drawStr(10,15,".......");  // write something to the internal memory
+  u8g2.drawStr(18,16,".");
+  u8g2.drawStr(18,17,".");
+  u8g2.drawStr(18,18,".");  // write something to the internal memory
+  u8g2.drawStr(18,19,".");
+  u8g2.drawStr(18,20,".");// write something to the internal memory
+  u8g2.drawStr(16,21,"..........");  // write something to the internal memory
+  u8g2.drawStr(16,22,".    ");  // write something to the internal memory
+  u8g2.drawStr(16,23,".    ");  // write something to the internal memory
+  u8g2.drawStr(16,24,".    ");
+  u8g2.drawStr(16,25,".    ");
+  u8g2.drawStr(16,26,".    ");
+  u8g2.drawStr(16,27,".    ");
+  u8g2.drawStr(16,28,".    ");
+  u8g2.drawStr(16,29,".    ");
+  u8g2.drawStr(16,30,".    ");
+  u8g2.drawStr(16,31,".    ");
+  u8g2.drawStr(16,32,".    ");
+  u8g2.sendBuffer();          // transfer internal memory to the display
+  delay(4000);  
+  }
+`  
+
+<img align="top" width="100%" src="images/oledxy.jpg">
 
 <img align="top" width="100%" src="images/oledmatrix.jpg">
 
