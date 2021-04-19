@@ -79,12 +79,12 @@ delay(4000);
 3. draw your icon into that table like in the image below
 4. transfer the icon into code
 5. upload
-6. improuve the code
+6. improve code
 7. upload again
 
 <img align="top" width="100%" src="images/oledmatrix1.jpg">
 
-This code shows you the improuved dancer:  https://github.com/technologiestiftung/werkstatt/blob/master/ultratools/code/dance.ino
+This code shows you the improved dancer:  https://github.com/technologiestiftung/werkstatt/blob/master/ultratools/code/dance.ino
 
 
 
