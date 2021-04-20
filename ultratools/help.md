@@ -184,3 +184,9 @@ https://github.com/Sarapedia/werkstatt/blob/master/dialogstarter/xbmexamples.md
 ## Moving X-Bitmap
 
 https://github.com/technologiestiftung/werkstatt/blob/master/ultratools/code/movingsnail.ino
+
+## Additional material for the "different" display
+
+https://github.com/technologiestiftung/werkstatt/blob/master/HackingInnovationBias/ArduinoDisplayrange.ino
+
+This loop displays the dog for 3 seconds
