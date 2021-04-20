@@ -191,6 +191,12 @@ https://github.com/technologiestiftung/werkstatt/blob/master/ultratools/code/mov
 
 <img align="top" width="100%" src="images/display2.jpg">
 
+### For testing 
+
+1. Include Arduino "grove lcd rgb backlight" libary: Go to tools (on upper screen), open--> manage libaries, search  --> "grove lcd rgb backlight" install it
+2. Go to File(in the upper screen) --> Examples --> Grove lcd rgb backlight --> choose "Hello World" 
+3. open and upload
+
 
 
 https://github.com/technologiestiftung/werkstatt/blob/master/HackingInnovationBias/ArduinoDisplayrange.ino
