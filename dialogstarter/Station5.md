@@ -2,7 +2,9 @@
 
 # DTF mp3 Player- HowTo
 
-## Der mp3 player kann über den Mikrocontroller gesteuert werden, geht aber auch ohne.
+There are two options to control the mp3 player: mikrocontroller or buttons 
+
+## mp3 + Mikrocontroller
 
 ### Step 1: Hardware
 
@@ -25,24 +27,24 @@
 
 ---
 
-### Step 4: dtf Bibliothek einbinden und Test-Code hochladen
+### Step 4: Include dtf libary
 
 <img align="center" width="80%" src="images/bib1.png">
 <img align="center" width="80%" src="images/bib3.png">
 
-1. nach dtf im Bibliothekenmanager suchen. Siehe Bild
-2. Installieren
-3. mp3esp.ino kopieren und hochladen:  https://github.com/Sarapedia/werkstatt/blob/master/dialogstarter/Code/mp3esp.ino
-4. den Finger vorsichtig auf den Lautsprecher legen. Vibriert es?
-
-## Bilder passend zur mp3
-
-Hiermit können Bilder passend zur mp3 ausgegeben werden: https://github.com/Sarapedia/werkstatt/blob/master/dialogstarter/Code/mp3undbild.ino
-
-## Code anpassen für mehr Spaß
+1. search dtf in he Libary Manager and install
+2. not there? Download it here. I use version 1.0.3  https://www.arduinolibraries.info/libraries/df-robot-df-player-mini -->sketch --> include Libary -->zip Libary --> Download --> dtf...
+4. copy and upload:  https://github.com/Sarapedia/werkstatt/blob/master/dialogstarter/Code/mp3esp.ino
 
 
-## DTF Mini ohne Mikrocontroller steuern.
+## Images + mp3
+
+this code shows you how to include xbitmap Images upload: https://github.com/Sarapedia/werkstatt/blob/master/dialogstarter/Code/mp3undbild.ino
+
+
+## DTF Mini + Buttons
+
+Two cabels with male endings are great buttons
 
 
 <img align="center" width="80%" src="images/schalt2.png">
