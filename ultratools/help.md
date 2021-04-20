@@ -169,6 +169,8 @@ void loop() {
 
 https://github.com/Sarapedia/werkstatt/blob/master/dialogstarter/xbmexamples.md
 
+This loop displays the dog for 3 seconds
+
 
 ## How to create an X-Bitmap - One of many pipelines
 
@@ -189,4 +191,3 @@ https://github.com/technologiestiftung/werkstatt/blob/master/ultratools/code/mov
 
 https://github.com/technologiestiftung/werkstatt/blob/master/HackingInnovationBias/ArduinoDisplayrange.ino
 
-This loop displays the dog for 3 seconds
