@@ -189,5 +189,9 @@ https://github.com/technologiestiftung/werkstatt/blob/master/ultratools/code/mov
 
 ## Additional material for the "different" display
 
+<img align="top" width="100%" src="images/display2.jpg">
+
+
+
 https://github.com/technologiestiftung/werkstatt/blob/master/HackingInnovationBias/ArduinoDisplayrange.ino
 
