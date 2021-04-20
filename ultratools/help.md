@@ -170,11 +170,16 @@ void loop() {
 https://github.com/Sarapedia/werkstatt/blob/master/dialogstarter/xbmexamples.md
 
 
-## How to create an X-Bitmap
+## How to create an X-Bitmap - One of many pipelines
 
+1. Draw something with bold black ink for example with  https://excalidraw.com/
+2. export as jpg, png, ...
+3. open the image with gimp https://www.gimp.org/ 
+4. Go to --> "Image" on the upper screen
+5. Scale image --> 128x32 is the maximum size --> resolution: 60 
+6. Go to  --> File --> export...give it a filname.xbm --> save 
+7. open file in a text editor...copy all the code and paste it in Arduino Code
 
-1. Python xbm image editor: https://sourceforge.net/projects/simple-xbm-image-editor/files/
-2. draw somthing (black and white), save as jpg , open with gimp and  --> Image --> scale image --> 50 x 50 is a good size --> resolution: 60 --> File --> export...give it a filname.xbm -->save --> open it in a text editor 
 
 ## Moving X-Bitmap
 
