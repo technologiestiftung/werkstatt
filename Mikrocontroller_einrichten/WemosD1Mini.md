@@ -30,7 +30,12 @@ Am oberen Bildschirmrand nach dem Boardmanager suchen und ESP8266 installieren
 3. Verändern sich die Einträge in der angezeigten Portliste, wenn man das Kabel rauszieht?
 
 Ja: Gratulation der Treiber ist schon vorinstalliert
-Nein: Treiberinstallation
+
+Nein: Mit einem anderen USB Kabel testen. Ist das verwendete USB Kabel ein Datenkabel oder nur ein Ladekabel? Wenn es ein Datenkabel ist hilft die Treiberinstallation. 
+
+## Treiberinstallation
+
+https://sparks.gogo.co.nz/ch340.html
 
 
 
