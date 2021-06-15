@@ -1,8 +1,8 @@
 # Mobiles programmierbares Licht 
 
-<img align="center" width="100%" src="Images/Lichtklar.jpg">
+<img align="center" width="50%" src="Images/Lichtklar.jpg">
 
-<img align="center" width="100%" src="Images/Lichtgesicht.jpg">
+<img align="center" width="50%" src="Images/Lichtgesicht.jpg">
 
 
 
