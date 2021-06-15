@@ -4,7 +4,7 @@
 
 <img align="right" width="40%" src="Images/Lichtgesicht.jpg">
 
---------
+---
 
 # Bauteile
 
