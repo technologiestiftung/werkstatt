@@ -2,10 +2,12 @@
 
 Bauteile: Mikrocontroller, der mit der Arduino IDE kompatibel ist. Hier z.B. Arduino Uno
 
-1. Verbinde den Mikrocontroller mit dem Computer
-2. Download Arduino IDE https://www.arduino.cc/en/software
-3. öffne das Programm "Arduino"
-4. kopiere diesen Code in eine leere Arduino Datei https://github.com/technologiestiftung/werkstatt/blob/master/HackingInnovationBias/Herz.ino
+
+1. Download Arduino IDE https://www.arduino.cc/en/software
+2. Richte den Mikrocontroller ein. Hilfe: https://github.com/technologiestiftung/werkstatt/blob/master/Mikrocontroller_einrichten/Arduino.md 
+3. Beispielcode wie im Bild unten hochladen  https://github.com/technologiestiftung/werkstatt/blob/master/HackingInnovationBias/Herz.ino
+
+<img align="center" width="100%" src="Images/laden.jpg">
 
 # Herz.ino gibt Herz auf dem seriellen Monitor aus
 
