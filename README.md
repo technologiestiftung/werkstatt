@@ -14,7 +14,7 @@ In diesem Repository findet ihr:
   
 der offenen Werkstatt des CityLAB Berlin.
 
-In den **How To's** findet ihr eine ausführliche Anleitun zu den jeweiligen Workshops mit entsprechenden Bildern und verlinkungen zu Codes, Libaries, Anleitungen und weiterführenden Input. 
+In den **How To's** findet ihr eine ausführliche Anleitung zu den jeweiligen Workshops mit entsprechenden Bildern und verlinkungen zu Codes, Libaries, Anleitungen und weiterführenden Input. 
 
 &nbsp;
 <img align="center" width="100%" src="images/Werkstatt_Platzhalter.jpg">
