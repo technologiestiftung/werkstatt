@@ -4,9 +4,8 @@
 
 <img align="right" width="40%" src="Images/Lichtgesicht.jpg">
 
-----
+--------
 
+# Bauteile
 
-## Bauteile
-
-<img align="center" width="100%" src="Images/bauteile1.jpg">
+<img align="center" width="50%" src="Images/bauteile1.jpg">
