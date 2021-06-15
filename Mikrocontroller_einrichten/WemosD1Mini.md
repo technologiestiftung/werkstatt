@@ -5,7 +5,7 @@
 Am oberen Bildschirmrand den Reiter öffnen, der zu den Voreinstellungen(Preferences) führt. Je nach Arduinoversion variiert der Weg möglicherweise etwas.
 Diesen Link wie im Bild unten gezeigt einfügen. http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
-<img align="center" width="60%" src="Images/Wemos1.jpg">
+<img align="center" width="60%" src="Images/wemos1.jpg">
 
 -----
 
@@ -13,13 +13,13 @@ Diesen Link wie im Bild unten gezeigt einfügen. http://arduino.esp8266.com/stab
 
 Am oberen Bildschirmrand nach dem Boardmanager suchen und ESP8266 installieren
 
-<img align="center" width="60%" src="Images/Wemos3.jpg">
+<img align="center" width="60%" src="Images/wemos3.jpg">
 
 -----
 
 ## Board auswählen
 
-<img align="center" width="60%" src="Images/Wemos2.jpg">
+<img align="center" width="60%" src="Images/wemos2.jpg">
 
 -----
 
