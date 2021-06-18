@@ -26,7 +26,14 @@ Bevor ein Programm auf den Mikrocontroller gespielt werden kann, bedarf es der E
 
 https://github.com/technologiestiftung/werkstatt/blob/master/Mikrocontroller_einrichten/WemosD1Mini.md
 
-Der Code liegt hier: https://github.com/Sarapedia/Train/blob/main/co2wifi.ino
+## Code 
+
+Dieses Programm schaltet eine LED an, wenn der Co2 Wert im Raum kritisch wird: 
+https://github.com/Sarapedia/Train/blob/main/coco.ino 
+
+
+Dieses Programm sendet die Co2 Werte über WiFi ins Internet:
+https://github.com/Sarapedia/Train/blob/main/co2wifi.ino
 
 
 
