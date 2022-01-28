@@ -29,8 +29,13 @@ https://github.com/technologiestiftung/werkstatt/blob/master/Mikrocontroller_ein
 # Fernsteuern
 
 Mit Blynk: https://blynk.io/ kann man sich einfach eine App zusammenbauen, mit der man den ESP8266 fernsteuern kann. Hier eine Schritt für Schrittanleitung. https://github.com/Teamon234/Code/issues/1#issue-1112419179
+
+Den passende Code zum fernsteuern einer LED findet man hier: https://github.com/technologiestiftung/werkstatt/blob/master/Fahrradlicht/blynkled.ino
+
 Noch besser ist Processing: https://processing.org/de/
 Wie zeigt dieses Tutorial: https://www.uni-weimar.de/projekte/costumes-and-environment/2017/05/19/tutorial-connecting-adafruit-feather-huzzah-esp8266-wireless-in-real-time-to-processing-3-3computer/
+
+
 
 
 
