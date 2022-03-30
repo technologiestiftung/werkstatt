@@ -1,0 +1,94 @@
+{
+  "projectName": "werkstatt",
+  "projectOwner": "technologiestiftung",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 64,
+  "commit": true,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "Sarapedia",
+      "name": "sarapedia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60431784?v=4",
+      "profile": "https://github.com/Sarapedia",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "julizet",
+      "name": "Julia Zet",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52455010?v=4",
+      "profile": "https://github.com/julizet",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "nielek2",
+      "name": "nielek2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11848165?v=4",
+      "profile": "https://github.com/nielek2",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "carologics",
+      "name": "carologics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81422884?v=4",
+      "profile": "https://github.com/carologics",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "TDesjardins",
+      "name": "Tino Desjardins",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1841306?v=4",
+      "profile": "https://github.com/TDesjardins",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "AlexandraKapp",
+      "name": "AlexandraKapp",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18367515?v=4",
+      "profile": "https://github.com/AlexandraKapp",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "bildung-tsb",
+      "name": "Digitale Bildung TSB",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53176294?v=4",
+      "profile": "https://www.technologiestiftung-berlin.de/de/hackingbox-1",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "vogelino",
+      "name": "Lucas Vogel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2759340?v=4",
+      "profile": "https://github.com/vogelino",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}

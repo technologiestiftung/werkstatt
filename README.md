@@ -1,10 +1,5 @@
 ![](https://img.shields.io/badge/Build%20with%20%E2%9D%A4%EF%B8%8F-at%20Technologiesitftung%20Berlin-blue)
 
-
-<img align="right" width="160" src="images/logo-technologiestiftung.jpg">
-<img align="right" width="160" src="images/citylab-logo-2160x550.jpg">
-
-&nbsp;
 # Werkstatt im CityLAB Berlin
 Die **Technologiestiftung** veranstaltet regelmäßige Workshops im **CityLAB Berlin** im ehemaligen Offizierskasino des **Flughafen Tempelhof**. Die Termine für die sog. **Offene Werkstatt**, **Workshops** und andere Veranstaltungen findet ihr auf der [CityLAB-Website](https://www.citylab-berlin.org/) 
 
@@ -31,3 +26,60 @@ Ein Beispiel hierfür ist die Konfiguration eines Raspberry Pi's in Verbindung m
 ## Gastbeiträge
 Am 28. Feburar 2020 waren die [Freifunker](https://freifunk.net/) zu Gast in der offenen Werkstatt. Dabei vermittelte der Förderverein Grundlagen zum Thema Funk, Netzwerk und Router-Wartung und betreuten kleine Projekte wie "Netzwerkkabel crimpen" und "Freifunk Router flashen" direkt vor Ort in der Werkstatt. Die ausführliche Ideenbeschreibungen zu allen Workshop-Ideen, sowie Hintergrundinfos zum Förderverein findet ihr in diesem Repository im Ordner [documents](https://github.com/technologiestiftung/werkstatt/tree/master/documents).
 
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/Sarapedia"><img src="https://avatars.githubusercontent.com/u/60431784?v=4?s=64" width="64px;" alt=""/><br /><sub><b>sarapedia</b></sub></a><br /><a href="https://github.com/technologiestiftung/werkstatt/commits?author=Sarapedia" title="Code">💻</a> <a href="https://github.com/technologiestiftung/werkstatt/commits?author=Sarapedia" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/julizet"><img src="https://avatars.githubusercontent.com/u/52455010?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Julia Zet</b></sub></a><br /><a href="https://github.com/technologiestiftung/werkstatt/commits?author=julizet" title="Code">💻</a> <a href="https://github.com/technologiestiftung/werkstatt/commits?author=julizet" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/nielek2"><img src="https://avatars.githubusercontent.com/u/11848165?v=4?s=64" width="64px;" alt=""/><br /><sub><b>nielek2</b></sub></a><br /><a href="https://github.com/technologiestiftung/werkstatt/commits?author=nielek2" title="Code">💻</a> <a href="https://github.com/technologiestiftung/werkstatt/commits?author=nielek2" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/carologics"><img src="https://avatars.githubusercontent.com/u/81422884?v=4?s=64" width="64px;" alt=""/><br /><sub><b>carologics</b></sub></a><br /><a href="https://github.com/technologiestiftung/werkstatt/commits?author=carologics" title="Code">💻</a> <a href="https://github.com/technologiestiftung/werkstatt/commits?author=carologics" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/TDesjardins"><img src="https://avatars.githubusercontent.com/u/1841306?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Tino Desjardins</b></sub></a><br /><a href="https://github.com/technologiestiftung/werkstatt/commits?author=TDesjardins" title="Code">💻</a> <a href="https://github.com/technologiestiftung/werkstatt/commits?author=TDesjardins" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/AlexandraKapp"><img src="https://avatars.githubusercontent.com/u/18367515?v=4?s=64" width="64px;" alt=""/><br /><sub><b>AlexandraKapp</b></sub></a><br /><a href="https://github.com/technologiestiftung/werkstatt/commits?author=AlexandraKapp" title="Code">💻</a> <a href="https://github.com/technologiestiftung/werkstatt/commits?author=AlexandraKapp" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://www.technologiestiftung-berlin.de/de/hackingbox-1"><img src="https://avatars.githubusercontent.com/u/53176294?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Digitale Bildung TSB</b></sub></a><br /><a href="https://github.com/technologiestiftung/werkstatt/commits?author=bildung-tsb" title="Code">💻</a> <a href="https://github.com/technologiestiftung/werkstatt/commits?author=bildung-tsb" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/vogelino"><img src="https://avatars.githubusercontent.com/u/2759340?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Lucas Vogel</b></sub></a><br /><a href="https://github.com/technologiestiftung/werkstatt/commits?author=vogelino" title="Documentation">📖</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+## Credits
+
+<table>
+  <tr>
+    <td>
+      <a src="https://citylab-berlin.org/en/start/">
+        <br />
+        <br />
+        <img width="200" src="https://logos.citylab-berlin.org/logo-citylab-berlin.svg" />
+      </a>
+    </td>
+    <td>
+      A project by: <a src="https://www.technologiestiftung-berlin.de/en/">
+        <br />
+        <br />
+        <img width="150" src="https://logos.citylab-berlin.org/logo-technologiestiftung-berlin-en.svg" />
+      </a>
+    </td>
+    <td>
+      Supported by: <a src="https://www.berlin.de/rbmskzl/en/">
+        <br />
+        <br />
+        <img width="80" src="https://logos.citylab-berlin.org/logo-berlin-senatskanzelei-en.svg" />
+      </a>
+    </td>
+  </tr>
+</table>
