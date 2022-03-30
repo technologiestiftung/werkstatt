@@ -42,6 +42,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/Sarapedia"><img src="https://avatars.githubusercontent.com/u/60431784?v=4?s=64" width="64px;" alt=""/><br /><sub><b>sarapedia</b></sub></a><br /><a href="https://github.com/technologiestiftung/werkstatt/commits?author=Sarapedia" title="Code">💻</a> <a href="https://github.com/technologiestiftung/werkstatt/commits?author=Sarapedia" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/julizet"><img src="https://avatars.githubusercontent.com/u/52455010?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Julia Zet</b></sub></a><br /><a href="https://github.com/technologiestiftung/werkstatt/commits?author=julizet" title="Code">💻</a> <a href="https://github.com/technologiestiftung/werkstatt/commits?author=julizet" title="Documentation">📖</a></td>
   </tr>
 </table>
 
