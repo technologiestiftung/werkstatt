@@ -69,6 +69,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "bildung-tsb",
+      "name": "Digitale Bildung TSB",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53176294?v=4",
+      "profile": "https://www.technologiestiftung-berlin.de/de/hackingbox-1",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7
