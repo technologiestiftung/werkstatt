@@ -31,3 +31,16 @@ Ein Beispiel hierfür ist die Konfiguration eines Raspberry Pi's in Verbindung m
 ## Gastbeiträge
 Am 28. Feburar 2020 waren die [Freifunker](https://freifunk.net/) zu Gast in der offenen Werkstatt. Dabei vermittelte der Förderverein Grundlagen zum Thema Funk, Netzwerk und Router-Wartung und betreuten kleine Projekte wie "Netzwerkkabel crimpen" und "Freifunk Router flashen" direkt vor Ort in der Werkstatt. Die ausführliche Ideenbeschreibungen zu allen Workshop-Ideen, sowie Hintergrundinfos zum Förderverein findet ihr in diesem Repository im Ordner [documents](https://github.com/technologiestiftung/werkstatt/tree/master/documents).
 
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
