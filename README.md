@@ -1,10 +1,5 @@
 ![](https://img.shields.io/badge/Build%20with%20%E2%9D%A4%EF%B8%8F-at%20Technologiesitftung%20Berlin-blue)
 
-
-<img align="right" width="160" src="images/logo-technologiestiftung.jpg">
-<img align="right" width="160" src="images/citylab-logo-2160x550.jpg">
-
-&nbsp;
 # Werkstatt im CityLAB Berlin
 Die **Technologiestiftung** veranstaltet regelmäßige Workshops im **CityLAB Berlin** im ehemaligen Offizierskasino des **Flughafen Tempelhof**. Die Termine für die sog. **Offene Werkstatt**, **Workshops** und andere Veranstaltungen findet ihr auf der [CityLAB-Website](https://www.citylab-berlin.org/) 
 
@@ -60,3 +55,31 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+## Credits
+
+<table>
+  <tr>
+    <td>
+      <a src="https://citylab-berlin.org/en/start/">
+        <br />
+        <br />
+        <img width="200" src="https://logos.citylab-berlin.org/logo-citylab-berlin.svg" />
+      </a>
+    </td>
+    <td>
+      A project by: <a src="https://www.technologiestiftung-berlin.de/en/">
+        <br />
+        <br />
+        <img width="150" src="https://logos.citylab-berlin.org/logo-technologiestiftung-berlin-en.svg" />
+      </a>
+    </td>
+    <td>
+      Supported by: <a src="https://www.berlin.de/rbmskzl/en/">
+        <br />
+        <br />
+        <img width="80" src="https://logos.citylab-berlin.org/logo-berlin-senatskanzelei-en.svg" />
+      </a>
+    </td>
+  </tr>
+</table>
