@@ -49,6 +49,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "TDesjardins",
+      "name": "Tino Desjardins",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1841306?v=4",
+      "profile": "https://github.com/TDesjardins",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7
