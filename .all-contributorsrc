@@ -39,6 +39,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "carologics",
+      "name": "carologics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81422884?v=4",
+      "profile": "https://github.com/carologics",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7
