@@ -9,6 +9,17 @@
   "imageSize": 64,
   "commit": true,
   "commitConvention": "angular",
-  "contributors": [],
+  "contributors": [
+    {
+      "login": "Sarapedia",
+      "name": "sarapedia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60431784?v=4",
+      "profile": "https://github.com/Sarapedia",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    }
+  ],
   "contributorsPerLine": 7
 }
