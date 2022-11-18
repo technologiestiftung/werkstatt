@@ -1,3 +1,5 @@
+//ultrasonic sensor triggers speech output "Please, stop! Thank you", if distance is under 10 cm, using the ESP8266 Wemos D1 Mini
+
 #include <Arduino.h>
 #include <ESP8266SAM.h>
 #include <AudioOutputI2S.h>
