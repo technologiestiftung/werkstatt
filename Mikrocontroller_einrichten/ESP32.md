@@ -1,4 +1,4 @@
-#ESP32
+# ESP32 einrichten
 
 ## Voreinstellungen (Preferences)
 Voreinstellungen (Preferences) öffnen. Je nach Arduino-Version und Betriebssystem kann der Weg dort hin varrieren.
