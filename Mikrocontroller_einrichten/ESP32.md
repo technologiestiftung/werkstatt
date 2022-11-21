@@ -2,7 +2,9 @@
 
 ## Voreinstellungen (Preferences)
 Voreinstellungen (Preferences) öffnen. Je nach Arduino-Version und Betriebssystem kann der Weg dort hin varrieren.
+
   unter iOS: "Arduino" >> "Preferences..."
+  
   unter Windows: "Datei" >> "Einstellungen"
   
 Unter "Zusätzliche Boardverwalter URLs" folgende URL ergänzen: https://dl.espressif.com/dl/package_esp32_index.json, http://arduino.esp8266.com/stable/package_esp8266com_index.json
