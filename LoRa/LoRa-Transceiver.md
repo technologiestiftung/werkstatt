@@ -27,7 +27,7 @@ Eine Übersicht der Verkabelung findest du hier: https://randomnerdtutorials.com
 
 Die Pinbelegung des LoRa-Bee findest du in der folgenden Übersicht:
 
-<img align="center" width="20%" src="Images/lora_2.png">
+<img align="center" width="20%" src="Images/lora_3.png">
 
 
 -----
