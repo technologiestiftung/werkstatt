@@ -7,7 +7,7 @@ Anleitung basierend auf Random Nerd Tutorials: https://randomnerdtutorials.com/e
 
 ## Einrichten des ESP32
 
-Wie Du den Microcontroller einrichtest, findest Du hier: https://github.com/technologiestiftung/werkstatt/blob/master/Mikrocontroller_einrichten/ESP32.md
+Wie du den Microcontroller einrichtest, findest du hier: https://github.com/technologiestiftung/werkstatt/blob/master/Mikrocontroller_einrichten/ESP32.md
 
 Lade die Library für das LoRa-Modul herunter. Gehe dafür über "Sketch" >> "Bibliothek einbinden" >> "Bibliotheken verwalten..."
 Suche in der Suchleiste nach der Bibliothek "lora" und installiere sie.
@@ -23,14 +23,18 @@ Verbinde mithilfe der Jumper-Kabel die Pins des ESP32 mit denen des LoRa-Moduls.
 
 <img align="center" width="20%" src="Images/lora_2.png">
 
-Eine Übersicht der Verkabelung findest Du hier: https://randomnerdtutorials.com/esp32-lora-rfm95-transceiver-arduino-ide/
+Eine Übersicht der Verkabelung findest du hier: https://randomnerdtutorials.com/esp32-lora-rfm95-transceiver-arduino-ide/
+
+Die Pinbelegung des LoRa-Bee findest du in der folgenden Übersicht:
+
+<img align="center" width="20%" src="Images/lora_2.png">
 
 
 -----
 
 ## Senden von Daten über den LoRa-Bee
 
-Das LoRa-Modul kann sowohl zum Senden als auch zum Empfangen von Daten genutzt werden. Den Sketch für das Senden von Daten findest Du hier unter der Überschrift "The LoRa Sender Sketch":
+Das LoRa-Modul kann sowohl zum Senden als auch zum Empfangen von Daten genutzt werden. Den Sketch für das Senden von Daten findest du hier unter der Überschrift "The LoRa Sender Sketch":
 
 https://randomnerdtutorials.com/esp32-lora-rfm95-transceiver-arduino-ide/
 
@@ -41,7 +45,7 @@ Führe den Sketch aus und lasse dir die Ausgabe im Seriellen Monitor anzeigen. V
 
 ## Empfangen von Daten über den LoRa-Bee
 
-Das LoRa-Modul kann dem Senden von Daten auch Daten empfangen. Den Sketch für das Empfangen von Daten findest Du wieder auf der Website unter der Überschrift "The LoRa Receiver Sketch":
+Das LoRa-Modul kann dem Senden von Daten auch Daten empfangen. Den Sketch für das Empfangen von Daten findest du wieder auf der Website unter der Überschrift "The LoRa Receiver Sketch":
 
 https://randomnerdtutorials.com/esp32-lora-rfm95-transceiver-arduino-ide/
 
@@ -56,9 +60,9 @@ Wir können nicht nur Textzeilen mit dem LoRa-Modul übermitteln. Es lassen sich
 
 Verbinde den Temperatursensor wie folgt mit deiner Schaltung.
 
-Um die Temperaturwerte übermitteln zu können, haben wir uns von dem Sketch auf der folgenden Website inspirieren lassen und die Caode-Zeilen für den Tempertursensor DHT-22 in unserem LoRa-Sender-Sketch ergänzt. Hier geht es zum Tempertursensor-Sketch: https://funduino.de/anleitung-dht11-dht22
+Um die Temperaturwerte übermitteln zu können, haben wir uns von dem Sketch auf der folgenden Website inspirieren lassen und die Code-Zeilen für den Tempertursensor DHT-22 in unserem LoRa-Sender-Sketch ergänzt. 
 
-Kannst du den LoRa-Sender-Sketch um die Abfrage der Tempertur ergänzen?
+Kannst du den LoRa-Sender-Sketch um die Abfrage der Temperatur ergänzen? Hier geht es zum Tempertursensor-Sketch: https://funduino.de/anleitung-dht11-dht22
 
 Du findest den fertigen Sketch auch hier: https://github.com/technologiestiftung/werkstatt/blob/master/LoRa/LoRa_Temp.ino
 
