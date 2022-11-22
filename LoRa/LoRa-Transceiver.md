@@ -22,12 +22,19 @@ Suche in der Suchleiste nach der Bibliothek "lora" und installiere sie.
 Verbinde mithilfe der Jumper-Kabel die Pins des ESP32 mit denen des LoRa-Moduls.
 
 GND: GND
+
 3.3V: 3.3V
+
 DIO0: GPIO 2
+
 RESET: GPIO 14
+
 NSS: GPIO 5
+
 SCK: GPIO 18
+
 MOSI: GPIO 23
+
 MISO: GPIO 19
 
 Eine Übersicht der Verkabelung findest Du hier: https://randomnerdtutorials.com/esp32-lora-rfm95-transceiver-arduino-ide/
