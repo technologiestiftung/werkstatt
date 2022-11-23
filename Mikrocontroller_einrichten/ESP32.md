@@ -7,7 +7,7 @@ unter iOS: "Arduino" >> "Preferences..."
 unter Windows: "Datei" >> "Einstellungen"
   
 
-Unter "Zusätzliche Boardverwalter URLs" folgende URL ergänzen: https://dl.espressif.com/dl/package_esp32_index.json, http://arduino.esp8266.com/stable/package_esp8266com_index.json
+Unter "Zusätzliche Boardverwalter URLs" folgende URL ergänzen: https://dl.espressif.com/dl/package_esp32_index.json
   
 <img align="center" width="60%" src="Images/esp32_1.png">
 
