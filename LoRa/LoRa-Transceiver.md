@@ -60,9 +60,9 @@ Wir können nicht nur Textzeilen mit dem LoRa-Modul übermitteln. Es lassen sich
 
 Verbinde den Temperatursensor wie folgt mit deiner Schaltung.
 
-Um die Temperaturwerte übermitteln zu können, haben wir uns von dem Sketch auf der folgenden Website inspirieren lassen und die Code-Zeilen für den Tempertursensor DHT-22 in unserem LoRa-Sender-Sketch ergänzt. 
+Um die Temperaturwerte übermitteln zu können, haben wir uns von dem Sketch auf der folgenden Website inspirieren lassen und die Code-Zeilen für den Tempertursensor DHT-22 in unserem LoRa-Sender-Sketch ergänzt. Hier geht es zum Tempertursensor-Sketch: https://funduino.de/anleitung-dht11-dht22 
 
-Kannst du den LoRa-Sender-Sketch um die Abfrage der Temperatur ergänzen? Hier geht es zum Tempertursensor-Sketch: https://funduino.de/anleitung-dht11-dht22
+Kannst du den LoRa-Sender-Sketch um die Abfrage der Temperatur ergänzen? 
 
 Du findest den fertigen Sketch auch hier: https://github.com/technologiestiftung/werkstatt/blob/master/LoRa/LoRa_Temp.ino
 
