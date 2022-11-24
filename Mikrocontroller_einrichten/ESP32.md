@@ -24,7 +24,7 @@ In der Sucheleiste nach esp32 suchen und anschließend das Board installieren.
 
 ## Board auswählen
 
-Zum Schluss das Board unter "Werkzeuge" >> "Board" >> "ESP32 Arduino" >> "DOIT ESP32 DEVKIT V1" auswählen.
+Zum Schluss das Board unter "Werkzeuge" >> "Board" >> "ESP32 Arduino" >> "ESP32 DEV Module" auswählen.
 
 <img align="center" width="60%" src="Images/esp32_3.png">
 
