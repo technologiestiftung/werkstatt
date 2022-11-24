@@ -45,7 +45,7 @@ Führe den Sketch aus und lasse dir die Ausgabe im Seriellen Monitor anzeigen. V
 
 ## Empfangen von Daten über den LoRa-Bee
 
-Das LoRa-Modul kann dem Senden von Daten auch Daten empfangen. Den Sketch für das Empfangen von Daten findest du wieder auf der Website unter der Überschrift "The LoRa Receiver Sketch":
+Das LoRa-Modul kann, wie gesagt, neben dem Senden von Daten auch Daten empfangen. Den Sketch für das Empfangen von Daten findest du wieder auf der Website unter der Überschrift "The LoRa Receiver Sketch":
 
 https://randomnerdtutorials.com/esp32-lora-rfm95-transceiver-arduino-ide/
 
