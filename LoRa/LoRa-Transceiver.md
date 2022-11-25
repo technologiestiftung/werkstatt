@@ -58,7 +58,7 @@ Wechsele dich bei der Ausführung des Sketchs mit einer Person im Raum aus. Eine
 
 Wir können nicht nur Textzeilen mit dem LoRa-Modul übermitteln. Es lassen sich auch andere Werte und Daten mit dem Modul senden. Im nächsten Schritt wollen wir den Tenperatursensor DHT-22 in die Schaltung einbinden und die Temperaturwerte übermitteln.
 
-Verbinde den Temperatursensor wie folgt mit deiner Schaltung:
+Verbinde den Temperatursensor und 10k-Widerstand wie folgt mit deiner Schaltung:
 
 <img align="center" width="50%" src="Images/wiring_esp32-DHT22.png">
 
