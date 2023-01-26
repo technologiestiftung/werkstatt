@@ -15,6 +15,8 @@ https://github.com/binaryupdates/Blynk-NodeMCU-ESP8266/blob/main/Blynk_NodeMCU_E
 
 Ergänze in Zeile 3 und 4 deine Template ID und deinen Device Name. Beides findest du in Deinem Blynk-Account. Gehe dazu im linken Menüband auf den zweiten Menüpunkt mit den neun Punkten. Hier kommst du zu deinen vorher erstellten Templates. Wählen das eben erstellte Template aus. Unter dem Tab "Info" findest du die Code-Zeilen für die Template ID und der Device Name. Kopiere diese in Zeile 3 und 4 Deines Sketchs.
 
+Alternativ kann auch dieser Sketch verwendet werden. Hier wird direkt im Sketch WLAN-Name und Passwort angetragen: https://github.com/technologiestiftung/werkstatt/blob/master/Fahrradlicht/blynkled.ino
+
 -----
 
 ## Blynk-Bibliothek laden
