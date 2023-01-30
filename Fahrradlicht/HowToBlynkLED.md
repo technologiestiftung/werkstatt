@@ -50,11 +50,11 @@ Erstelle im Tab "Data Stream" einen neuen Data Stream. Über den Button "+ Data 
 
 Vergib einen Namen und wähle den Pin "V0" aus. Dieser wird ebenfalls im Sketch verwendet. Falls du einen andern Pin wählst, muss diesen auch im Sketch ändern.
 
-<img align="center" width="50%" src="Images/blynk_add-data-stream_02.png">
+<img align="center" width="40%" src="Images/blynk_add-data-stream_02.png">
 
 Anschließend gehst du auf den Tab "Web Dashboard" und erstellst dir einen Schalter, indem du den "Switch" aus der linken Spalte auf dein Dashboard ziehst. Den Schalter kannst du über das Zahnrad-Symbol bearbeiten, welches erscheint wenn du über den Schalter auf deinem Dashboard fährst. Gib dem Schalter einen Namen und wähle unter "Date Stream" den zuvor erstellten Data Stream aus. Du kannst dem Schalter noch eine Farbe zu ordnen und die Positionen des Schalter labeln.
 
-<img align="center" width="50%" src="Images/blynk_web-dashboard.png">
+<img align="center" width="40%" src="Images/blynk_web-dashboard.png">
 
 Lade dir nun die Blynk-App auf dein Smartphone und melde dich mit deinem Account an. Erstelle dir unter "Device" eine Wifi-Verbindung zu deinem Microcontroller. Dafür benötigst du den Zugang zu deinem WLAN. Anschließend kannst du, wie eben im Tab "Web Dashboard" dir einen Schalter zur Steuerung der Schaltung über die Blnak-App erstellen.
 
