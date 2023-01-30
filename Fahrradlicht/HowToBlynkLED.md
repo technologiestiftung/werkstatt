@@ -58,7 +58,7 @@ Anschließend gehst du auf den Tab "Web Dashboard" und erstellst dir einen Schal
 
 <img align="center" width="40%" src="Images/blynk_web-dashboard.png">
 
-Lade dir nun die Blynk-App auf dein Smartphone und melde dich mit deinem Account an. Erstelle dir unter "Device" eine Wifi-Verbindung zu deinem Microcontroller. Dafür benötigst du den Zugang zu deinem WLAN. Anschließend kannst du, wie eben im Tab "Web Dashboard" dir einen Schalter zur Steuerung der Schaltung über die Blnak-App erstellen.
+Lade dir nun die Blynk-App auf dein Smartphone und melde dich mit deinem Account an. Erstelle dir unter "Device" eine Wifi-Verbindung zu deinem Microcontroller. Dafür benötigst du den Zugang zu deinem WLAN. Anschließend kannst du, wie eben im Tab "Web Dashboard" dir einen Schalter zur Steuerung der Schaltung über die Blynk-App erstellen.
 
 
 
