@@ -1,5 +1,7 @@
 # Steuerung Wemos Mini über Blynk App
 
+Wie du den Microcontroller mit deinem Computer verbindest, findest du hier: https://github.com/technologiestiftung/werkstatt/blob/master/Mikrocontroller_einrichten/WemosD1Mini.md
+
 ## Einrichten eines Templates in Blynk
 
 Du kannst den Microcontroller über Wifi mithilfe der App Blynk steuern. Dafür erstellst du zu erst einen Account bei Blynk: https://blynk.cloud/dashboard/register
