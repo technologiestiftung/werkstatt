@@ -6,13 +6,13 @@ Du kannst den Microcontroller über Wifi mithilfe der App Blynk steuern. Dafür 
 
 Wenn du eingeloggt bist, klicke im linken Menüband auf die Lupe. Erstelle nun ein neues Gerät über den Button "+ New Device", den du oben rechts findest. 
 
-<img align="center" width="60%" src="Images/blynk_add-new-device_01">
+<img align="center" width="60%" src="Images/blynk_add-new-device_01.png">
 
 Wähle im nächsten Fenster die Option "From template" aus. Erstelle ein neues Template oder nutze ein bereits vorhandenes und vergib einen Namen.
 
-<img align="center" width="60%" src="Images/blynk_add-new-device_02">
+<img align="center" width="60%" src="Images/blynk_add-new-device_02.png">
 
-<img align="center" width="60%" src="Images/blynk_add-new-device_03">
+<img align="center" width="60%" src="Images/blynk_add-new-device_03.png">
 
 -----
 
